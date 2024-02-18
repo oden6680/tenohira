@@ -1,0 +1,5077 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "二風谷アットゥシ",
+        "ID": "1",
+        "region": "北海道",
+        "prefectures": "北海道",
+        "category": "織物",
+        "overview": "沙流川流域に古くから伝わり江戸時代には物産として他地域との取引に使われた織物。百年以上前とほぼ同じ形の道具で作られる。",
+        "address": "北海道沙流郡平取町二風谷77-14",
+        "postcode": "〒055-0101",
+        "URL": "https: //kougeihin.jp/craft/0101/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.178391,
+          42.635429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "二風谷イタ",
+        "ID": "2",
+        "region": "北海道",
+        "prefectures": "北海道",
+        "category": "木工品・竹工品",
+        "overview": "百年以上前から沙流川流域に住むアイヌの人々によって受け継がれたお盆。19世紀半ばに半月盆や丸盆が献上された記録。",
+        "address": "北海道沙流郡平取町二風谷77-15",
+        "postcode": "〒055-0102",
+        "URL": "https://kougeihin.jp/craft/0601/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.178391,
+          42.635429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "津軽塗",
+        "ID": "3",
+        "region": "東北",
+        "prefectures": "青森",
+        "category": "漆器",
+        "overview": "津軽地方で生産される伝統漆器の総称。耐久性が非常に高く、よく「堅牢」という言葉で評される。",
+        "address": "青森県弘前市神田2丁目4-9",
+        "postcode": "〒036-8061",
+        "URL": "津軽塗｜青森県漆器協同組合連合会 (tsugarunuri.org)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.485336,
+          40.620449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "秀平塗",
+        "ID": "4",
+        "region": "東北",
+        "prefectures": "岩手",
+        "category": "漆器",
+        "overview": "奥州藤原の栄華を今に伝える、漆と金をふんだんに使用した漆器。",
+        "address": "岩手県西磐井郡平泉町平泉",
+        "postcode": "〒029-4102",
+        "URL": "http://www.urumi.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.072357,
+          38.988693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "浄法寺塗",
+        "ID": "5",
+        "region": "東北",
+        "prefectures": "岩手",
+        "category": "漆器",
+        "overview": "国産漆の60%を生産している産地 ・本朱・溜色の無地単色で、使い込むほど美しさが増す艶やかな漆器。",
+        "address": "岩手県二戸市浄法寺町",
+        "postcode": "〒028-6100",
+        "URL": "https://kougeihin.jp/craft/0503/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.109436,
+          40.17617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "岩谷堂箪笥",
+        "ID": "6",
+        "region": "東北",
+        "prefectures": "岩手",
+        "category": "木工品・竹工品",
+        "overview": "漆の風合いと木目が美しい格調高い家具。大きな存在感と箪笥に施された美しい飾り金具が特徴。",
+        "address": "岩手県奥州市江刺愛宕字海老島68-1",
+        "postcode": "〒023-1131",
+        "URL": "岩谷堂箪笥生産協同組合 (iwayado-tansu.jp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.167221,
+          39.168621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南部鉄器",
+        "ID": "7",
+        "region": "東北",
+        "prefectures": "岩手",
+        "category": "金工品",
+        "overview": "盛岡地域と水沢地域で生産されている鉄器。さびにくく長持ちすることや熱が均一に伝わること、保温性に優れていることが特徴.",
+        "address": "岩手県盛岡市南仙北二丁目23-9",
+        "postcode": "〒020-0863",
+        "URL": "https://iwachu.co.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.154984,
+          39.671532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鳴子漆器",
+        "ID": "8",
+        "region": "東北",
+        "prefectures": "宮城",
+        "category": "漆器",
+        "overview": "大崎市周辺で生産される漆器。木地呂塗りや龍文塗りなど独特な塗装技術が特徴。",
+        "address": "宮城県大崎市鳴子温泉字新屋敷122-2",
+        "postcode": "〒989-6892",
+        "URL": "https://kougeihin.jp/craft/0504/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.717728,
+          38.743282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "仙台箪笥",
+        "ID": "9",
+        "region": "東北",
+        "prefectures": "宮城",
+        "category": "木工品・竹工品",
+        "overview": "仙台藩の地場産業として発展し、木目が浮かび上がる木地呂（きじろ）塗りに豪華な金属製の飾り金具が施されていることが特徴。",
+        "address": "仙台市青葉区本町2丁目7-3",
+        "postcode": "〒980-0014",
+        "URL": "仙台箪笥協同組合 – 仙台箪笥協同組合オフィシャルサイト (sendai-tansu.com)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.87468,
+          38.264111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "雄勝硯",
+        "ID": "10",
+        "region": "東北",
+        "prefectures": "宮城",
+        "category": "文具",
+        "overview": "宮城県の伝統的な硯で,  光沢のある漆黒の美しさ, 高い耐久性, 劣化に強い特徴を持ち, 美しい彫刻も魅力の一つ.",
+        "address": "宮城県石巻市雄勝町下雄勝2丁目17",
+        "postcode": "〒986-1335",
+        "URL": "https://www.ogatsu-suzuri.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.468018,
+          38.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宮城伝統こけし",
+        "ID": "11",
+        "region": "東北",
+        "prefectures": "宮城",
+        "category": "人形・こけし",
+        "overview": "宮城県の伝統的なこけしで, 手作りの木彫りのこけしが, 可憐な形や絵付で彩られており, 産地によって系統が異なる.",
+        "address": "宮城県大崎市鳴子温泉字尿前７４－２",
+        "postcode": "〒989-6827",
+        "URL": "https://www.tohoku.meti.go.jp/s_cyusyo/densan-ver3/html/item/miyagi_01.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.702072,
+          38.738598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "川連漆器",
+        "ID": "12",
+        "region": "東北",
+        "prefectures": "秋田",
+        "category": "漆器",
+        "overview": "秋田県の伝統的な漆器で, 黒や朱色を基調とし, 何回も繰り返される「地塗り」と「中塗り」を経て、塗り立てと言われる「花塗り」で仕上げて乾燥するのが特徴. また価格が手頃でありながらとても堅牢である. ",
+        "address": "秋田県湯沢市川連町字大舘中野142-1",
+        "postcode": "〒012-0105",
+        "URL": "http://www.kawatsura.or.jp/feature/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.584579,
+          39.149883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "樺細工",
+        "ID": "13",
+        "region": "東北",
+        "prefectures": "秋田",
+        "category": "木工品・竹工品",
+        "overview": "秋田県の伝統的な工芸品で, 樺の皮を編んで作るかごやバッグなどがあり, 軽やかで丈夫な特徴があります.",
+        "address": "秋田県仙北市角館町外ノ山18",
+        "postcode": "〒014-0352",
+        "URL": "https://www.kabazaiku.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.576614,
+          39.593983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大館曲げわっぱ",
+        "ID": "14",
+        "region": "東北",
+        "prefectures": "秋田",
+        "category": "木工品・竹工品",
+        "overview": "秋田県の伝統的な木製の曲げわっぱで, 木を湯で加熱して曲げる技法を用いており, 軽くて持ちやすく明るい秋田杉の木目がシンプルなフォルムも特徴です.",
+        "address": "秋⽥県大館市字中町５Ａ",
+        "postcode": "〒017-0843",
+        "URL": "https://odate-magewappa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.253479,
+          33.882141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "秋田杉桶樽",
+        "ID": "15",
+        "region": "東北",
+        "prefectures": "秋田",
+        "category": "木工品・竹工品",
+        "overview": "秋田県の伝統的な桶や樽で, 杉材を使用し, 伝統的な技術で作られており, 醤油樽や酒樽などに利用されています.",
+        "address": "秋田県能代市末広町4-3",
+        "postcode": "〒 016-0895",
+        "URL": "https://www2.chuokai-akita.or.jp/oketaru/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.01857,
+          40.208382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "置賜紬",
+        "ID": "16",
+        "region": "東北",
+        "prefectures": "山形",
+        "category": "織物",
+        "overview": "山形県置賜地方(米沢・白鷹・長井)の伝統的な絹織物で, 繊細な糸染めと独特の風合いが魅力で, 着物や小物に用いられます.",
+        "address": "山形県米沢市松が岬二丁目3-36",
+        "postcode": "〒992-0053",
+        "URL": "https://kougeihin.jp/craft/0102/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.100037,
+          37.910515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "羽越しな布",
+        "ID": "17",
+        "region": "東北",
+        "prefectures": "山形",
+        "category": "織物",
+        "overview": "山形県鶴岡市と新潟県村上市の県境で生産される伝統的な織物で, 糸の色を変えて織ることで, 幾何学模様や花柄が織り込まれた布地です. 木の皮を使用した織物では日本最古と言われている。",
+        "address": "山形県鶴岡市関川字向222",
+        "postcode": "〒999-7315",
+        "URL": "https://www.city.tsuruoka.lg.jp/shisei/shiyakusyo/infomation/atsumi/kanko/atsangyo-sina-dentou.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.692383,
+          38.515343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "山形鋳物",
+        "ID": "18",
+        "region": "東北",
+        "prefectures": "山形",
+        "category": "金工品",
+        "overview": "山形県の伝統的な鋳物で, 鋳鉄を使った調理器具や庭の装飾品があり, 丈夫さと風格がありながらも, 薄くきめ細かな肌感が生み出されている。また900年の歴史を持っている。",
+        "address": "山形市鋳物町10",
+        "postcode": "〒990-2351",
+        "URL": "https://www.chuokai-yamagata.or.jp/imono/index.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.289261,
+          38.232441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "山形仏壇",
+        "ID": "19",
+        "region": "東北",
+        "prefectures": "山形",
+        "category": "仏壇・仏具",
+        "overview": "山形県の伝統的な仏壇で, 木彫りや金具の装飾が美しく, 仏教の祭壇として用いられます. 漆の温もりと堅牢な作り, 黒金具が特徴です.",
+        "address": "山形県山形市松見町8-11",
+        "postcode": "〒990-2431",
+        "URL": "https://kougeihin.jp/craft/0801/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.33876,
+          38.230419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天童将棋駒",
+        "ID": "20",
+        "region": "東北",
+        "prefectures": "山形",
+        "category": "その他",
+        "overview": "山形県の伝統的な将棋駒で, 国内将棋駒生産量の多くを占める. 美しい彫刻と重厚感があり, 将棋の駒としてだけでなく, 装飾品としても愛されています.",
+        "address": "山形県天童市老野森１丁目3-28",
+        "postcode": "〒994-0013",
+        "URL": "http://www.tendocci.com/koma/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.378296,
+          38.362846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "奥会津昭和からむし織",
+        "ID": "21",
+        "region": "東北",
+        "prefectures": "福島",
+        "category": "織物",
+        "overview": "福島県大沼郡昭和村の伝統的な絹織物で, 苧麻・青苧と呼ばれる植物から織られる. 軽く, サラリとした触りごごちが特徴.",
+        "address": "福島県大沼郡昭和村大字下中津川字中島６１１",
+        "postcode": "〒968-0103",
+        "URL": "https://www.karamushi.co.jp/work.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.606979,
+          37.335918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大堀相馬焼",
+        "ID": "22",
+        "region": "東北",
+        "prefectures": "福島",
+        "category": "陶磁器",
+        "overview": "福島県の伝統的な陶器で, 「青ひび」と呼ばれる亀裂の地模様が特徴. 素朴な味わいと優しさがある.",
+        "address": "福島県双葉郡浪江町大字幾世橋字知命寺40",
+        "postcode": "〒979-1513",
+        "URL": "http://www.somayaki.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.000122,
+          37.496136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "会津本郷焼",
+        "ID": "23",
+        "region": "東北",
+        "prefectures": "福島",
+        "category": "陶磁器",
+        "overview": "福島県の伝統的な焼き物で, 日本古来の絵の具はもちろん, 西洋の絵の具を使った多色の色絵等様々な種類がある. 独特の灰色が特徴で, お茶碗や鉢などが作られています.",
+        "address": "福島県会津美里町字瀬戸町甲3162",
+        "postcode": "〒969-6042",
+        "URL": "https://aizuhongouyaki.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.889664,
+          37.452503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "会津塗",
+        "ID": "24",
+        "region": "東北",
+        "prefectures": "福島",
+        "category": "漆器",
+        "overview": "福島県の伝統的な漆器で, 黒や朱色を基調とした縁起の良い意匠や多彩な加飾の美しさが特徴. 食器や容器などに利用されています.",
+        "address": "福島県会津若松市大町1丁目7-3",
+        "postcode": "〒965-0042",
+        "URL": "http://www.chuokai-fukushima.or.jp/aizushikkikumiai/index.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.928848,
+          37.499882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "奥会津編み組細工",
+        "ID": "25",
+        "region": "東北",
+        "prefectures": "福島",
+        "category": "木工品・竹工品",
+        "overview": "福島県会津地方の伝統的な細工で, 竹や藤を編んで作り, 地域の自然素材を生かし, 素朴でありながらも独特の繊細さを持つ手編みの良さが特徴.",
+        "address": "福島県大沼郡三島町大字名入字諏訪ノ上",
+        "postcode": "〒９６９－７４０２",
+        "URL": "https://kougeihin.jp/craft/0606/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.660233,
+          37.480247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "結城紬",
+        "ID": "26",
+        "region": "関東",
+        "prefectures": "茨城",
+        "category": "織物",
+        "overview": "鬼怒川流域で生産されてきた絹織物で、養蚕業が盛んだったため,農閑期の副産物として取り上げられた。技術の進歩により最高級品の生産が可能に。",
+        "address": "茨城県結城市結城1360-1",
+        "postcode": "〒307-0001",
+        "URL": "https://www.honba-yukitumugi.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.875214,
+          36.304344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "笠間焼",
+        "ID": "27",
+        "region": "関東",
+        "prefectures": "茨城",
+        "category": "陶磁器",
+        "overview": "江戸時代中期,信楽焼の技術を用いて焼いたのが始まり。昭和20年代までは瓶・擂鉢等台所用品が多かったが,現在は食器等の食卓用品,花瓶,置物が作られるようになった。",
+        "address": "茨城県笠間市笠間2481-5",
+        "postcode": "〒309-1611",
+        "URL": "https://kasamayaki.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.26358,
+          36.379799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "真壁石灯篭",
+        "ID": "28",
+        "region": "関東",
+        "prefectures": "茨城",
+        "category": "石工品",
+        "overview": "茨城県の伝統的な石灯篭で, 均整の取れた形状と石の風合いが, 日本庭園などで使われます.",
+        "address": "茨城県桜川市真壁町真壁402",
+        "postcode": "〒300−4408",
+        "URL": "https://makabeishi.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.104233,
+          36.278454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "結城紬",
+        "ID": "29",
+        "region": "関東",
+        "prefectures": "栃木",
+        "category": "織物",
+        "overview": "茨城県の伝統的な絹織物で, 手織りによって作られ, 軽くて柔らかく, 保温性に優れている. 地色に濃淡がありながらも繊細な模様が魅力です.",
+        "address": "栃木県小山市福良2358",
+        "postcode": "〒323-0155",
+        "URL": "https://www.yuki-tsumugishinko.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.895432,
+          36.328152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "益子焼",
+        "ID": "30",
+        "region": "関東",
+        "prefectures": "栃木",
+        "category": "陶磁器",
+        "overview": "栃木県の伝統的な陶器で, 陶土に他の物質を加えないことから厚みのある焼き物に仕上がる. 形が作りやすく, 耐火性も高い. 釉薬がのりやすい事から, 独特の味わいのある力強さがある.",
+        "address": "栃木県芳賀郡益子町益子4352-2",
+        "postcode": "〒321-4217",
+        "URL": "https://mashikoyakikumiai.shop/pages/aboutus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.107315,
+          36.467533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "伊勢崎絣",
+        "ID": "31",
+        "region": "関東",
+        "prefectures": "群馬",
+        "category": "織物",
+        "overview": "群馬県の伝統的な織物で, 青や白を基調とした格子模様が特徴で, 着物や小物に用いられます.",
+        "address": "群馬県伊勢崎市曲輪町31-1",
+        "postcode": "〒372-0055",
+        "URL": "https://kogeijapan.com/locale/ja_JP/isesakikasuri/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.192291,
+          36.321548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "桐生織",
+        "ID": "32",
+        "region": "関東",
+        "prefectures": "群馬",
+        "category": "織物",
+        "overview": "群馬県の伝統的な織物で, 縞模様や市松模様などが特徴で, 帯や小物に利用されます.",
+        "address": "群馬県桐生市永楽町6-6",
+        "postcode": "〒376-0011",
+        "URL": "http://www.kiryuorimono.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.337143,
+          36.412521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "秩父銘仙",
+        "ID": "33",
+        "region": "関東",
+        "prefectures": "埼玉",
+        "category": "織物",
+        "overview": "埼玉県秩父市の伝統的な織物で, 糸に型染めをするため, 裏表がないように染色される平織りの織物である. 裏表がないため, 何度も仕立て直しができ, 長く使用できる. ",
+        "address": "埼玉県秩父市熊木町28-1",
+        "postcode": "〒368-0032"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.087341,
+          35.990761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "行田足袋",
+        "ID": "34",
+        "region": "関東",
+        "prefectures": "埼玉",
+        "category": "その他",
+        "overview": "埼玉県の伝統的な足袋で, 行田は全国一の足袋生産を誇る. 独自の縞模様や模様が特徴で, 祭りや行事で履かれる.",
+        "address": "埼玉県行田市忍2丁目1-8",
+        "postcode": "〒361-0077",
+        "URL": "https://www.gyoda-tabi.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.457687,
+          36.140301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "春日部桐箪笥",
+        "ID": "35",
+        "region": "関東",
+        "prefectures": "埼玉",
+        "category": "木工品・竹工品",
+        "overview": "埼玉県の伝統的な箪笥で, 桐材を用いて丁寧に作られ, 金釘を使わない木の感じをしっかりと残す工夫が施されている. 防湿性, 難燃性に優れ, 非常に軽い.",
+        "address": "埼玉県春日部市豊野町1丁目1-9",
+        "postcode": "〒344-0014",
+        "URL": "https://kasukabe-kiritansu.site/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.788971,
+          35.95763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江戸木目込人形",
+        "ID": "36",
+        "region": "関東",
+        "prefectures": "埼玉",
+        "category": "人形・こけし",
+        "overview": "東京都に伝わっていた伝統的な人形で, 埼玉県には戦時疎開で東京から移住してきた職人によって伝えられた。美しい木目込み彫りと豪華な装飾が施された人形で, お祭りや行事に使われます.",
+        "address": "埼玉県さいたま市岩槻区本町3丁目2-5ワッツ東館4F",
+        "postcode": "〒339-0057",
+        "URL": "http://www.edokimekomi.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.693756,
+          35.950104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "岩槻人形",
+        "ID": "37",
+        "region": "関東",
+        "prefectures": "埼玉",
+        "category": "人形・こけし",
+        "overview": "埼玉県の伝統的な人形で, 武士や歌舞伎役者などをモチーフにした美しい人形があります.",
+        "address": "埼玉県さいたま市岩槻区本町3丁目2-5ワッツ東館4F",
+        "postcode": "〒339-0057",
+        "URL": "https://www.doll.or.jp/traditional/index.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.693756,
+          35.950104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "千葉工匠具",
+        "ID": "38",
+        "region": "関東",
+        "prefectures": "千葉",
+        "category": "金工品",
+        "overview": "千葉県の伝統的な工具で, 刃物や手道具類を指す(鋸や鑿, 鋏).  熟練の職人によって作られています.",
+        "address": "千葉県柏市藤ヶ谷369-10",
+        "postcode": "〒277-0931",
+        "URL": "https://chibakaji.jimdofree.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.016785,
+          35.814499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "房州うちわ",
+        "ID": "39",
+        "region": "関東",
+        "prefectures": "千葉",
+        "category": "その他",
+        "overview": "千葉県の伝統的なうちわで, 日本三大うちわの一つ. 竹を骨組みに, 和紙を貼って作られる. 半円の「窓」という部分が特徴.",
+        "address": "千葉県南房総市富浦町青木28",
+        "postcode": "〒299-2492",
+        "URL": "https://www.bosyu-uchiwa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.887955,
+          35.070312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "村山大島紬",
+        "ID": "40",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "織物",
+        "overview": "武蔵村山市周辺で生産されている絹織物で、「板締め染色技法」を用いていることと模様のずれが生み出す素朴な風合いが有るのが特徴。",
+        "address": "東京都武蔵村山市本町2丁目2-1",
+        "postcode": "〒208-0004",
+        "URL": "村山大島紬｜武蔵村山市\u3000公式ホームページ (musashimurayama.lg.jp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.384796,
+          35.756004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "本場黄八丈",
+        "ID": "41",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "織物",
+        "overview": "東京都の伝統的な絹織物で, 黄八丈と呼ばれる黄色い染色が特徴で, 染めに使われる色は他に樺と黒の三色のみ. 着物の染めに用いられ, 八丈島の自然を生かした草木染である.",
+        "address": "東京都八丈島八丈町樫立346-1",
+        "postcode": "〒100-1621",
+        "URL": "https://kihachijo.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.796753,
+          33.07053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "多摩織",
+        "ID": "42",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "織物",
+        "overview": "東京都の伝統的な織物で, 生糸, 玉糸, 真綿のつむぎ糸を原材料とし ,皺になりにくく軽い所が特徴. また, 工程ごとに専門の職人が分業して一つの製品を完成させることも多摩織の特徴と言える. ",
+        "address": "東京都八王子市八幡町11-2",
+        "postcode": "〒192-0053",
+        "URL": "https://hachioji-orimono.or.jp/product/tamaori/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.326385,
+          35.66061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東京無地染",
+        "ID": "43",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "染色品",
+        "overview": "東京都の伝統的な染物で, 無地や一色の染めが特徴で, 控えめでありながらも品のある印象. 日本髪や振袖に用いられる.",
+        "address": "東京都新宿区西早稲田3丁目20-12",
+        "postcode": "〒169-0051",
+        "URL": "https://www.dentoukougei.jp/tokyo/33.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.711777,
+          35.712162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東京染小紋",
+        "ID": "44",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "染色品",
+        "overview": "東京都の伝統的な染物で, 小紋と呼ばれる幾何学模様の繊細さと格調高い気品があることが特徴. ",
+        "address": "東京都新宿区西早稲田３丁目6-14",
+        "postcode": "〒169-0052",
+        "URL": "https://www.dentoukougei.jp/tokyo/33.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.71553,
+          35.713127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東京手描友禅",
+        "ID": "45",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "染色品",
+        "overview": "東京都の伝統的な染物で, 手描きの友禅染めが施され, 落ち着いた色彩の中にも江戸らしい粋や洒落が表現されている.",
+        "address": "東京都新宿区中落合3丁目21-6",
+        "postcode": "〒161-0032",
+        "URL": "https://tokyotegakiyuzen.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.686798,
+          35.720879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江戸和竿",
+        "ID": "46",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "木工品・竹工品",
+        "overview": "東京都の伝統的な和竿で, 釣り竿の一種であり, 軽くて強度があり, 釣り師に愛用されます.",
+        "address": "東京都荒川区南千住5丁目11-14",
+        "postcode": "〒116-0003",
+        "URL": "https://sites.google.com/view/edowazao-official"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.795029,
+          35.734047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江戸指物",
+        "ID": "47",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "木工品・竹工品",
+        "overview": "東京都の伝統的な木工品で, 過度な装飾をせず, 漆塗りを施し, 桑や欅, 桐などの木目素材の美しさを最大限に引き出し, 繊細で優美な江戸の粋が感じられる.",
+        "address": "東京都台東区根岸5丁目9-17",
+        "postcode": "〒110-0003",
+        "URL": "https://edosashi.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.786896,
+          35.727551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東京アンチモニー工芸品",
+        "ID": "48",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "金工品",
+        "overview": "東京都の伝統的な工芸品で, 繊細な模様を正確に表現できることが特徴. アンチモニーを用いた装飾品や食器などがあります.",
+        "address": "東京都台東区蔵前４丁目3-1",
+        "postcode": "〒111-0051",
+        "URL": "http://antimony.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.788452,
+          35.701984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東京銀器",
+        "ID": "49",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "金工品",
+        "overview": "東京都の伝統的な銀器で, 美しい装飾と繊細な彫刻が施され,銀特有の優雅な輝きと江戸らしい粋な風情が特徴. その工程のほとんどは丹念な手作業で行われる.",
+        "address": "東京都台東区東上野2丁目24-4",
+        "postcode": "〒110-0015",
+        "URL": "http://www.tokyoginki.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.780365,
+          35.709736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江戸押絵",
+        "ID": "50",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "人形・こけし",
+        "overview": "東京都の伝統的な押絵で, 絹織物や綿織物を使った部品に日本画の技法を用いて上絵や面相を描き, 浮世絵の絵柄を表現している. ",
+        "address": "東京都台東区元浅草1丁目10-1",
+        "postcode": "〒111-0041"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.784103,
+          35.707657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江戸木目込人形",
+        "ID": "51",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "人形・こけし",
+        "overview": "東京都の伝統的な人形で, 精巧な木目込み彫りと豪華な装飾が施された人形で, 主に桐塑（とうそ）で作成されるため, 軽くて持ち運びしやすく, 丈夫なうえに型崩れもしにくい. お祭りや行事に使われます.",
+        "address": "東京都台東区柳橋2丁目1-9東商センター内",
+        "postcode": "〒111-0052"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.789764,
+          35.698269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江戸節句人形",
+        "ID": "52",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "人形・こけし",
+        "overview": "東京都の伝統的な人形で, もともと戸外に飾られていたものを屋内に飾るようになったために小さく, 江戸前の自然な風合いで写実的かつ精巧な造りが特徴. 端午の節句などのお祭りに飾る, 武将や人物の人形です.",
+        "address": "東京都台東区柳橋2丁目1-9東商センター内",
+        "postcode": "〒111-0052"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.789764,
+          35.698269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江戸表具",
+        "ID": "53",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "その他",
+        "overview": "東京都の伝統的な表具で, 美しい布や糸で家具や調度品を張り替え,装飾する. 全体的に丈が短く, 単彩な色味で淡泊であることが特徴.",
+        "address": "東京都台東区東上野4丁目10-14第2東ﾋﾞﾙ402室",
+        "postcode": "〒110-0015",
+        "URL": "http://tokyo-hyougu.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.779938,
+          35.714069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東京琴",
+        "ID": "54",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "その他",
+        "overview": "東京都の伝統的な琴で, 三味線の一種であり, 雅楽や民謡の演奏に用いられる. 音量の大きさと, 明瞭な音質が特徴. 琴の長さや厚み, 反り具合を変えることで音量を増やし, 大きな琴爪によってクリアな音を奏でる.",
+        "address": "東京都江戸川区平井4丁目1-17",
+        "postcode": "〒132-0035",
+        "URL": "http://www.wagakki.org/index.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.84697,
+          35.704185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東京三味線",
+        "ID": "55",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "その他",
+        "overview": "東京都の伝統的な三味線で, 三本の弦を使った弦楽器で, 日本の伝統音楽に使用されます. 一人の職人が仕上げまでを担うのが特徴.",
+        "address": "東京都江戸川区平井4丁目1-18",
+        "postcode": "〒132-0035",
+        "URL": "http://www.wagakki.org/index.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.847137,
+          35.704117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江戸べっ甲",
+        "ID": "56",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "その他",
+        "overview": "東京都の伝統的な鼈甲細工で, タイマイと呼ばれるウミガメの甲羅から作られている. 装飾品や小物が作られます. ",
+        "address": "東京都台東区谷中3丁目22-8",
+        "postcode": "〒110-0001",
+        "URL": "https://edo-bekko.com/bekko/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.764343,
+          35.730778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江戸からかみ",
+        "ID": "57",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "その他",
+        "overview": "襖や屏風などに貼られる装飾された紙のことで, 多彩な技法がある.",
+        "address": "東京都台東区東上野6丁目1-3",
+        "postcode": "〒110-0015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7845,
+          35.711151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江戸切子",
+        "ID": "58",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "その他",
+        "overview": "東京都の伝統的なガラス細工で, 華やかで独特なカットが施されたデザインです.  食器や花瓶に使われます.",
+        "address": "東京都江東区大島2丁目405",
+        "postcode": "〒136-0072",
+        "URL": "https://www.edokiriko.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822372,
+          35.691696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江戸木版画",
+        "ID": "59",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "その他",
+        "overview": "東京都の伝統的な木版画で, 美しい木版画が, 浮世絵や風俗画として愛されています. 主に桜材が使われ, 多色摺りにも耐える耐久性を持つ. ",
+        "address": "東京都文京区水道2丁目4-19",
+        "postcode": "〒112-0005",
+        "URL": "https://edohanga.jp/edomokuhanga/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.738174,
+          35.71014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江戸硝子",
+        "ID": "60",
+        "region": "関東",
+        "prefectures": "東京",
+        "category": "その他",
+        "overview": "東京都の伝統的な硝子細工で, 江戸時代より伝わる材料や伝統的な技法を引き継いだガラス製法が特徴. 手作業による感触や使い心地、見るものを深く楽しませる粋な技が施されている.",
+        "address": "東京都墨田区両国4丁目36-6",
+        "postcode": "〒130-0026",
+        "URL": "https://www.tobu-glass.or.jp/menu11.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.79567,
+          35.695236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鎌倉彫",
+        "ID": "61",
+        "region": "関東",
+        "prefectures": "神奈川",
+        "category": "漆器",
+        "overview": "神奈川県の伝統的な漆器で, 文様以外の部分には刀痕をつけ, 彫り跡をあえて残すところやマコモダケと呼ばれる菌類を使用しているなどの特徴がある.",
+        "address": "神奈川県鎌倉市由比ガ浜3丁目4-7",
+        "postcode": "〒248-0012",
+        "URL": "https://www.kamakurabori-kougeikan.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.545441,
+          35.313217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "小田原漆器",
+        "ID": "62",
+        "region": "関東",
+        "prefectures": "神奈川",
+        "category": "漆器",
+        "overview": "神奈川県の伝統的な漆器で, 美しい木目が際立つ艶やかな仕上がり. 自然の木目を活かした漆塗りが美しく, 丈夫でゆがみが少なく実用性に優れている.",
+        "address": "神奈川県小田原市久野621",
+        "postcode": "〒250-0055"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.147659,
+          35.267662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "箱根寄木細工",
+        "ID": "63",
+        "region": "関東",
+        "prefectures": "神奈川",
+        "category": "木工品・竹工品",
+        "overview": "箱根で生産されている木工品で、異なる木材を組み合わせて模様を出し、鉋で薄く削って貼り付けられている。工芸品としてではなく、観光土産という認識がある。",
+        "address": "神奈川県小田原市久野621",
+        "postcode": "〒250-0055"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.147659,
+          35.267662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "羽越しな布",
+        "ID": "64",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "織物",
+        "overview": "新潟県村上市の伝統的な織物で, 木の皮を使用した織物では, 日本最古のものとされている. 樹皮から作られた繊維ならではの素朴な風合いと手触り, そして耐水性に優れ, 丈夫でだということ. また, 完成までにとても長い時間を要する.",
+        "address": "新潟県村上市山熊田325",
+        "postcode": "〒959-3917",
+        "URL": "http://www.iwafune.ne.jp/~sanpokusho/kaiin/nariwai/nariwainosato.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.666611,
+          38.45702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "塩沢紬",
+        "ID": "65",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "織物",
+        "overview": "新潟県の伝統的な絹織物で, 手織りによって作られ, 上品で風合い豊かな織り模様が魅力です. 縦糸を合わせて作り出される非常に細かい蚊絣や, 十字絣, 亀甲絣などの絣模様が特徴.",
+        "address": "新潟県南魚沼市目来田107-1",
+        "postcode": "〒949-6435"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.846115,
+          37.033871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "小千谷縮",
+        "ID": "66",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "織物",
+        "overview": "新潟県の伝統的な縮織物で, シボと呼ばれるしわが特徴である. 撚りの強い糸を使うことで, 撚りがほどけたときにシボが生まれる. 乾燥しやすくベタつかない. ",
+        "address": "新潟県小千谷市城内１丁目８−２５",
+        "postcode": "〒947-0028",
+        "URL": "https://ojiya.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.796692,
+          37.310959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "小千谷紬",
+        "ID": "67",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "織物",
+        "overview": "新潟県の伝統的な紬織物で, 1000年以上も続く越後上布の技術を取り入れて織られる. 真綿の手紡ぎ糸のふっくらと軽くて温かみがある風合いや, 絹の光沢となめらかな手触り, 素朴な味わいが特徴.",
+        "address": "新潟県小千谷市城内1丁目8-25",
+        "postcode": "〒947-0029",
+        "URL": "https://ojiya.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.796692,
+          37.310959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "本塩沢",
+        "ID": "68",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "織物",
+        "overview": "新潟県の伝統的な織物で, 湯の中で揉んで作るシャリ感のあるシボの風合いと, 十字絣や亀甲絣などの精緻な絣模様が特徴で, 着物や帯などに用いられます.",
+        "address": "新潟県南魚沼市目来田107-1",
+        "postcode": "〒949-6435"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.846115,
+          37.033871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "十日町絣",
+        "ID": "69",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "織物",
+        "overview": "新潟県の伝統的な絣織物で, 経絣・緯絣により絣模様を表現した絹織物の光沢と風合いのある点が特徴. 絹の作り出す光沢と風合いが美しい織物.",
+        "address": "新潟県十日町市本町6丁目71-26 クロス10 4F",
+        "postcode": "〒948-0003",
+        "URL": "https://www.tokamachi-orikumi.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.76149,
+          37.140671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "十日町明石ちぢみ",
+        "ID": "70",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "織物",
+        "overview": "新潟県の伝統的な織物で, 緻密に織り上げられた美しい図柄と, 強撚糸を施した最高級の緯糸から生まれる清涼感のある手触り特徴. 着物や小物に利用されます.",
+        "address": "新潟県十日町市本町6丁目71-26 クロス10 4F",
+        "postcode": "〒948-0004",
+        "URL": "https://www.tokamachi-orikumi.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.76149,
+          37.140671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "村上木彫堆朱",
+        "ID": "71",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "漆器",
+        "overview": "新潟県村上市の伝統的な木彫り工芸で, 緻密な彫刻と堅牢で色鮮やかな漆で仕上げる美しい工芸である. 日常の使用にも耐える丈夫さと、長い年月にわたって愛用されるにつれ深みのある艶へと変化してゆく点が特徴.",
+        "address": "新潟県村上市松原町3丁目1-17",
+        "postcode": "〒958-0032",
+        "URL": "https://tsuishukumiai.jp/prof/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.462296,
+          38.223209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新潟漆器",
+        "ID": "72",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "漆器",
+        "overview": "新潟県の伝統的な漆器で, さまざまな塗りの技法があり, 多種多様な作風を楽しめるのが特徴. 食器や容器に利用されます.",
+        "address": "新潟県新潟市西区小針藤山16-9",
+        "postcode": "〒950-2021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.99295,
+          37.891029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "加茂桐箪笥",
+        "ID": "73",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "木工品・竹工品",
+        "overview": "新潟県の伝統的な箪笥で, 桐箪笥の多くが加茂で生産されている. 衣類を湿気や害虫から守り水害や火災にも強いのが特徴. 他にはない気品と暖かみが今日まで人々を惹き付けている.",
+        "address": "新潟県加茂市幸町2丁目2-4",
+        "postcode": "〒959-1313",
+        "URL": "https://www.kamokiritansu.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.04155,
+          37.664597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "越後与板打刃物",
+        "ID": "74",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "金工品",
+        "overview": "新潟県の伝統的な打刃物で, 鍛造技法は「火造り」で, 真っ赤に焼いた金属を叩いて形を作っている. 洗練された鋭い切れ味と使いやすさが特徴.",
+        "address": "新潟県長岡市与板町与板甲134-2与板商工会内",
+        "postcode": "〒940-2402",
+        "URL": "https://yoita-uchihamono.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.808228,
+          37.542118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "越後三条打刃物",
+        "ID": "75",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "金工品",
+        "overview": "新潟県の伝統的な打刃物で, 高温の金属を金型で叩いて形を整える高度な鍛造技術が特徴. 強度が高く、摩耗しにくいという性質を持つ.",
+        "address": "新潟県三条市元町11-53",
+        "postcode": "〒955-0072",
+        "URL": "https://kajidojo.com/blacksmith/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.953857,
+          37.633041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "燕鎚起銅器",
+        "ID": "76",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "金工品",
+        "overview": "新潟県の伝統的な銅器で, 鎚起とは槌で起こす打物のこと. 職人が鎚起することでできる光沢のある見た目や, 長年手入れをすることで銅の風合いが増していくことが特徴である.",
+        "address": "新潟県燕市中央通2丁目2-21",
+        "postcode": "〒959-1244",
+        "URL": "https://www.gyokusendo.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.929642,
+          37.664982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新潟・白根仏具",
+        "ID": "77",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "仏壇・仏具",
+        "overview": "新潟県の伝統的な仏具で, 京仏壇の伝統的な技術や製法に独自の技術を取り入れ, 蒔絵装飾を用いることにより優雅な作りが生み出されている点が特徴.",
+        "address": "新潟県新潟市南区白根1240-3",
+        "postcode": "〒950-1217"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.018173,
+          37.766224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "長岡仏壇",
+        "ID": "78",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "仏壇・仏具",
+        "overview": "新潟県の伝統的な仏壇で, 緻密な木彫りや金箔装飾が施されている. 長岡仏壇は台座と本体を分離できるように組み立てられているため, 製作から数十年たっても塗装し直すことできれいに再生することができる.",
+        "address": "新潟県長岡市関原町5-5",
+        "postcode": "〒940-2035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.769745,
+          37.449009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三条仏壇",
+        "ID": "79",
+        "region": "甲信越",
+        "prefectures": "新潟",
+        "category": "仏壇・仏具",
+        "overview": "新潟県の伝統的な仏壇で, 基本に忠実な宮殿造りと優れた手打ち金具, 美しい塗りが特徴.",
+        "address": "新潟県燕市水道町1丁目2-40",
+        "postcode": "〒959-1262"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.91716,
+          37.658588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "甲州水晶貴石細工",
+        "ID": "80",
+        "region": "甲信越",
+        "prefectures": "山梨",
+        "category": "貴石細工",
+        "overview": "山梨県の伝統的な石細工で, 天然の貴石に彫刻を施し, 入念に研磨をすることによって芸術作品を仕上げる伝統工法である. 躍動感のある動物や縁起のよい登り龍, 子どもにも愛されるチャーミングなキャラクターなど多岐に渡るデザインが特徴.",
+        "address": "山梨県笛吹市石和町四日市場1569",
+        "postcode": "〒406-0032",
+        "URL": "https://suishou.jp/saiku"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.635086,
+          35.639336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "甲州印伝",
+        "ID": "81",
+        "region": "甲信越",
+        "prefectures": "山梨",
+        "category": "その他",
+        "overview": "山梨県の伝統的な革細工で, 鹿革を用いて漆で模様を付けるのは特徴. 自然や四季の美しさを彩ったデザイン性の高さも人気の理由.",
+        "address": "山梨県甲府市川田町アリア201",
+        "postcode": "〒400-0811"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.62944,
+          35.652813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "甲州手彫印章",
+        "ID": "82",
+        "region": "甲信越",
+        "prefectures": "山梨",
+        "category": "その他",
+        "overview": "山梨県の伝統的な印鑑で, 手彫りの技法で印材に柘, 水牛, 水晶が指定されている点が特徴. ",
+        "address": "山梨県笛吹市石和町四日市場1569",
+        "postcode": "〒406-0032"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.635086,
+          35.639336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "信州紬",
+        "ID": "83",
+        "region": "甲信越",
+        "prefectures": "長野",
+        "category": "織物",
+        "overview": "長野県の伝統的な絹織物で, 格調高い染め技術と渋い光沢をもつことが特徴で, 一反ずつ手作業で織っていくため, 同じ物が２つとない一点ものの反物が作られる.",
+        "address": "長野県駒ヶ根市東町2-29",
+        "postcode": "〒399-4106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.938599,
+          35.73661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "木曽漆器",
+        "ID": "84",
+        "region": "甲信越",
+        "prefectures": "長野",
+        "category": "漆器",
+        "overview": "長野県の伝統的な漆器で, 長く使用するほど温もりのある艶が増し, 堅牢になっていくことが特徴. ",
+        "address": "長野県塩尻市木曽平沢2272-7",
+        "postcode": "〒399-6302",
+        "URL": "http://kiso.shikkikumiai.com/main.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.834091,
+          35.978016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "松本家具",
+        "ID": "85",
+        "region": "甲信越",
+        "prefectures": "長野",
+        "category": "木工品・竹工品",
+        "overview": "長野県の伝統的な民芸家具で, 木目調の美しさや木の温もりばかりでなく, 伝統的に守られてきた「組手接手」の技法が特徴. 幾重にも塗られた仕上げの拭き漆によって, 重厚感と落ち着きを与えている.",
+        "address": "長野県松本市中央4丁目7-5",
+        "postcode": "〒390-0811"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.975204,
+          36.233383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南木曾ろくろ細工",
+        "ID": "86",
+        "region": "甲信越",
+        "prefectures": "長野",
+        "category": "木工品・竹工品",
+        "overview": "長野県の伝統的な木工品で, ろくろの上で回しながら, カンナで挽いていき白木製品と呼ばれる木工品を削りだす手法を指す. ろくろ細工によって生み出される木目を, 自然の美しさをそのままに引き出している点が特徴. ",
+        "address": "長野県木曽郡南木曽町吾妻4689-239",
+        "postcode": "〒399-5302"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.603958,
+          35.565105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "信州打刃物",
+        "ID": "87",
+        "region": "甲信越",
+        "prefectures": "長野",
+        "category": "金工品",
+        "overview": "長野県の伝統的な金工品で, 特徴は手作業で一本一本ていねいに打ちのばすことから生まれる強靭さ, 切れ味のよさ, そして切れ味が長持ちすること. ",
+        "address": "長野県上水内郡信濃町富濃584-1",
+        "postcode": "〒389-1312",
+        "URL": "https://shinsyu.biz/kumiai.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.238174,
+          36.792603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "飯山仏壇",
+        "ID": "88",
+        "region": "甲信越",
+        "prefectures": "長野",
+        "category": "仏壇・仏具",
+        "overview": "長野県の伝統的な仏具で, 美しい蒔絵や宮殿が良く見えるように作られた弓長押が特徴. 現在でも年間1,000ほどの仏壇が作られている.",
+        "address": "長野県飯山市大字飯山1436-1",
+        "postcode": "〒389-2253",
+        "URL": "http://www.avis.ne.jp/~butsudan/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.358307,
+          36.850025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "内山紙",
+        "ID": "89",
+        "region": "甲信越",
+        "prefectures": "長野",
+        "category": "和紙",
+        "overview": "長野県の伝統的な和紙で, 楮100％を原料としていることが特徴, 手漉きの内山紙は通気性や通光性が優れ, 強靭で保温力もある. 太陽光をよく通す障子紙としても高い評価を得ている.",
+        "address": "長野県飯山市大字瑞穂6385",
+        "postcode": "〒389-2322",
+        "URL": "http://www.uchiyama-gami.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.425888,
+          36.892475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "美濃焼",
+        "ID": "90",
+        "region": "東海",
+        "prefectures": "岐阜",
+        "category": "陶磁器",
+        "overview": "東濃地域で製作される陶磁器の総称。1300年以上前から続いている焼物で、起源は朝鮮半島から伝わった須恵器。独特な緑色が掛かっている織部焼や志野焼などが知られている。",
+        "address": "岐阜県土岐市泉町久尻1429-8",
+        "postcode": "〒509-5142",
+        "URL": "https://www.minoyaki.gr.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.15535,
+          35.378353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "飛騨春慶",
+        "ID": "91",
+        "region": "東海",
+        "prefectures": "岐阜",
+        "category": "漆器",
+        "overview": "岐阜県の伝統的な漆器で, 自然な木目が持つ素朴な美しさと, 透漆塗り特有の透きとおった深い色調とが織りなす調和が特徴. 塗師によって微妙に色調が異なっている.",
+        "address": "岐阜県高山市桜町72",
+        "postcode": "〒506-0858"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.260956,
+          36.147289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "岐阜和傘",
+        "ID": "92",
+        "region": "東海",
+        "prefectures": "岐阜",
+        "category": "木工品・竹工品",
+        "overview": "江戸時代に武士に内職として推奨されたのがきっかけで盛んに。長良川流域に和紙や竹, 荏胡麻油などの材料が豊富だったため, 地場産業として発展。",
+        "address": "岐阜県岐阜市八島町７",
+        "postcode": "〒500-8445",
+        "URL": "https://gifuwagasakyokai.jimdofree.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.764603,
+          35.398575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "一位一辺彫",
+        "ID": "93",
+        "region": "東海",
+        "prefectures": "岐阜",
+        "category": "木工品・竹工品",
+        "overview": "木地に一刀で模様を彫り込む技法で、飛騨の山のイチイという木材を用い、その木目の美しさを活かし、色を付けない独特の彫刻で根付が作られる様になったのがきっかけ。",
+        "address": "岐阜県高山市本町1丁目10",
+        "postcode": "〒506-0011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.258835,
+          36.140526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "美濃和紙",
+        "ID": "94",
+        "region": "東海",
+        "prefectures": "岐阜",
+        "category": "和紙",
+        "overview": "美濃地方で生産される和紙. 生産の始まりは奈良時代だと考えられている. 薄さと丈夫さ, 美しさの共存が美濃和紙の大きな特徴.",
+        "address": "岐阜県美濃市蕨生1851-3",
+        "postcode": "〒501-3788",
+        "URL": "https://www.minowashi.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.877121,
+          35.583447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "岐阜提灯",
+        "ID": "95",
+        "region": "東海",
+        "prefectures": "岐阜",
+        "category": "その他",
+        "overview": "岐阜市の伝統工芸品で、300年以上の長い歴史を持つ. 美濃地方で作られる良質の美濃紙や竹を材料に, 秋の花々や花鳥, 風景などの細やかな絵柄が描かれていることが特徴. 繊細で優美な形と絵柄があいまって、見る人に上品で清楚な印象を与える.",
+        "address": "岐阜県岐阜市小熊町1丁目18",
+        "postcode": "〒500-8061",
+        "URL": "https://www.gifu-chochin.or.jp/contact/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.764282,
+          35.42487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "駿河竹千筋細工",
+        "ID": "96",
+        "region": "東海",
+        "prefectures": "静岡",
+        "category": "木工品・竹工品",
+        "overview": "静岡県駿河地方に伝わる伝統工芸で、竹を割って細かくした千筋を編み込む技法を使い、緻密な手作業でかごや花器などを制作する美しい工芸品",
+        "address": "静岡県静岡市葵区五町3-11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.37178,
+          34.973232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "駿河雛具",
+        "ID": "97",
+        "region": "東海",
+        "prefectures": "静岡",
+        "category": "人形・こけし",
+        "overview": "駿河地方で伝承される伝統的なひな人形の工芸品で、木彫りや絹糸を使った精巧な作品が特徴。江戸時代に漆器づくりの一分野として発達",
+        "address": "静岡県静岡市駿河区中野新田723",
+        "postcode": "〒422-8051",
+        "URL": "駿河雛具｜静岡郷土工芸品振興会 (shizuoka-kougei.jp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.384171,
+          34.949913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "駿河雛人形",
+        "ID": "98",
+        "region": "東海",
+        "prefectures": "静岡",
+        "category": "人形・こけし",
+        "overview": "静岡県駿河地方で作られる伝統的なひな人形で、木彫りや絹糸を用いた精巧な作品が特徴で、桃の節句に飾られる。",
+        "address": "静岡県静岡市駿河区東新田4丁目10−21",
+        "postcode": "〒421-0112",
+        "URL": "駿河雛人形｜静岡郷土工芸品振興会 (shizuoka-kougei.jp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.375748,
+          34.943493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "名古屋友禅",
+        "ID": "99",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "染色品",
+        "overview": "名古屋市周辺で発展した伝統的な染め物技法で、袋帯や帯などに用いられ、シンプルな意匠と実用性が特徴。尾張藩の旗印や幟（のぼり）等の染色品を作るようになったことに始まる。",
+        "address": "愛知県名古屋市西区万代町1-28",
+        "postcode": "〒451-0074",
+        "URL": "https://www.pref.aichi.jp/sangyoshinko/densan/204.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.888214,
+          35.197845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "名古屋黒染付染",
+        "ID": "100",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "染色品",
+        "overview": "名古屋周辺で発展した伝統的な着物の染め技法。着物の一部に模様がある「紋付き」のタイプで、地味な黒地に白や銀の模様が特徴",
+        "address": "愛知県名古屋市西区万代町1-28",
+        "postcode": "〒451-0074",
+        "URL": "https://www.pref.aichi.jp/sangyoshinko/densan/205.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.888214,
+          35.197845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "有松・鳴海絞",
+        "ID": "101",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "染色品",
+        "overview": "布地を縮めて特有の模様を作る絞り染めの一種で、着物や小物に使われ、美しい模様と色彩が魅力的である。",
+        "address": "愛知県名古屋市緑区有松3008",
+        "postcode": "〒458-0924",
+        "URL": "有松絞りとは | 有松・鳴海絞会館 (shibori-kaikan.com)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.971344,
+          35.065979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三州鬼瓦工芸品",
+        "ID": "102",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "陶磁器",
+        "overview": "愛知県の伝統的な陶磁器で, 約1,150度の高温で焼成することにより耐久性に優れた仕上がりとなり, 「いぶし銀」という独特の発色を有するのが特徴.",
+        "address": "愛知県高浜市青木町6丁目2-13",
+        "postcode": "〒444-1325",
+        "URL": "http://www.sansyuu.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.989212,
+          34.921978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "常滑焼",
+        "ID": "103",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "陶磁器",
+        "overview": "愛知県の伝統的な陶磁器で, 日本六古窯の一つとされている. 鉄分を多く含んだ陶土を使用しており, その性質を活かし, 鉄分を赤く発色させる朱泥が常滑焼を特徴付ける色である.",
+        "address": "愛知県常滑市字椎池10",
+        "postcode": "〒479-0017",
+        "URL": "http://www.tokonameyaki.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.863617,
+          34.893677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "赤津焼",
+        "ID": "104",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "陶磁器",
+        "overview": "愛知県の伝統的な陶磁器で, 日本六古窯の1つ. 美術工芸品, 茶道具･花器などから一般食卓用品にいたるまで高品質な手作りの陶器として日本で浸透している.",
+        "address": "愛知県瀬戸市赤津町944",
+        "postcode": "〒489-0022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.130142,
+          35.226189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "瀬戸染付焼",
+        "ID": "105",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "陶磁器",
+        "overview": "愛知県の伝統的な陶磁器で, 透明感があり柔らかな風合いの白い素地と, 写実的で繊細さが魅力の染付画が特徴.",
+        "address": "愛知県瀬戸市陶原町1-8",
+        "postcode": "〒489-0805"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.093185,
+          35.223171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "名古屋桐箪笥",
+        "ID": "106",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "木工品・竹工品",
+        "overview": "愛知県の伝統的な箪笥で, 特徴は他の地域の箪笥と比較すると20cmほど幅広に作られているとこと, 金具に金や銀が施されていたり, 金箔画が描かれていたりと豪華絢爛な作りが多いことが挙げられる.",
+        "address": "愛知県春日井市前並町前並8-4",
+        "postcode": "〒486-0903"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.946594,
+          35.263962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "尾張仏具",
+        "ID": "107",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "仏壇・仏具",
+        "overview": "愛知県の伝統的な仏具で, 木製漆塗り製品を中心に多種多品目の仏具が作られている. 美しい彫刻や金箔装飾が施された仏壇や神棚があります.",
+        "address": "愛知県名古屋市中区門前町6-26",
+        "postcode": "〒460-0018",
+        "URL": "https://owaributsugu.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.900925,
+          35.155991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "名古屋仏壇",
+        "ID": "108",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "仏壇・仏具",
+        "overview": "愛知県の伝統的な仏壇で, 高級な材質の木材を使用. 緻密な木彫りや金箔装飾が施され, 台の部分が高く「みつまくり」を備えており, 宮殿御坊造という豪華絢爛な構造を持つことが特徴.",
+        "address": "愛知県名古屋市中区橘1丁目6-5",
+        "postcode": "〒460-0016",
+        "URL": "http://nagoya-butsudan.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.902039,
+          35.155434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三河仏壇",
+        "ID": "109",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "仏壇・仏具",
+        "overview": "愛知県の伝統的な仏壇で, 押入れに合う大きさという条件のもと仏壇を豪華に見せる工夫がなされていることが特徴.",
+        "address": "愛知県岡崎市門前町51",
+        "postcode": "〒444-0032",
+        "URL": "https://www.mikawabutudan.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.172485,
+          34.959141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "豊橋筆",
+        "ID": "110",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "文具",
+        "overview": "愛知県の伝統的な筆で, 全国でも二位の生産量を誇る. 「練りまぜ」という技法によって生まれる墨になじみやすい, 滑らかな書き味が特徴で, タヌキやイタチなどの獣毛が使用されている.",
+        "address": "愛知県豊橋市三ノ輪町5丁目13",
+        "postcode": "〒440-0838",
+        "URL": "https://www.pref.aichi.jp/sangyoshinko/jibasangyo/industry/toyohashihude.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.41188,
+          34.75222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "岡崎石工品",
+        "ID": "111",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "石工品",
+        "overview": "愛知県の伝統的な石工品・貴石細工で, 長い歴史をもつことと, 岡崎御影など石目に特徴がある石材が多いことが特徴.",
+        "address": "愛知県岡崎市花崗町5",
+        "postcode": "〒444-0039",
+        "URL": "https://www.ishi-okazaki.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.168442,
+          34.958862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "名古屋節句飾",
+        "ID": "112",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "人形・こけし",
+        "overview": "愛知県の伝統的な節句飾りで, 中部という地の利を活かして地域特性を随所に取り入れ, 東西それぞれから好まれる多様な製品が産み出されてきた.",
+        "address": "愛知県名古屋市西区新道2丁目15-12",
+        "postcode": "〒451-0043",
+        "URL": "http://www.sekku.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.886307,
+          35.178085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "尾張七宝",
+        "ID": "113",
+        "region": "東海",
+        "prefectures": "愛知",
+        "category": "陶磁器",
+        "overview": "愛知県の伝統的な焼き物で, 銅や銀の金属素地の表面に, 色付きのガラス質の釉薬を施すことが特徴. 様々な技法があり, それらを組み合わせて新しい技術が生まれる.",
+        "address": "愛知県あま市七宝町大字遠島字十三割2000",
+        "postcode": "〒497-0002",
+        "URL": "https://www.shippoyaki.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.805069,
+          35.175426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "伊賀組みひも",
+        "ID": "114",
+        "region": "東海",
+        "prefectures": "三重",
+        "category": "その他",
+        "overview": "三重県の伝統的な組紐で, 色とりどりに染められた絹糸の1本1本が光に映え, 交わりあって輝く美しさが特徴. 主に絹糸を使い、組み糸に金銀糸を使用して作られている.",
+        "address": "三重県伊賀市上野丸之内116-2",
+        "URL": "http://www.kumihimo.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.130005,
+          34.76918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "四日市萬古焼",
+        "ID": "115",
+        "region": "東海",
+        "prefectures": "三重",
+        "category": "陶磁器",
+        "overview": "三重県の伝統的な陶磁器で, 土鍋においては国内生産の土鍋の8割から9割を占める. 使用される陶土から生まれる優れた耐熱性が特徴.",
+        "address": "三重県四日市市陶栄町318",
+        "postcode": "〒510-0035",
+        "URL": "https://yokkaichi-banko.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.62558,
+          34.978516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "伊賀焼",
+        "ID": "116",
+        "region": "東海",
+        "prefectures": "三重",
+        "category": "陶磁器",
+        "overview": "三重県の伝統的な陶磁器で, 高温で焼かれることにより生まれるビードロ釉と呼ばれるガラス質と, 赤く引き締まった素朴で力強い肌合いが特徴.",
+        "address": "三重県伊賀市丸柱169-2",
+        "postcode": "〒518-1325",
+        "URL": "http://www.igayaki.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.122177,
+          34.846226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鈴鹿墨",
+        "ID": "117",
+        "region": "東海",
+        "prefectures": "三重",
+        "category": "文具",
+        "overview": "三重県の伝統的な墨で, 墨としては日本で唯一伝統工芸品. 天然のゼラチンである膠を使用し, 伝統的な制墨を行うことで生み出される発色やにじみ, 基線の良さ, 抜群の書き味, 年月を経ても変わらぬ墨色が特徴.",
+        "address": "三重県鈴鹿市寺家５－５－１５",
+        "postcode": "〒510-0254"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.583435,
+          34.828293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "伊勢型紙",
+        "ID": "118",
+        "region": "東海",
+        "prefectures": "三重",
+        "category": "工芸材料・工芸用品",
+        "overview": "三重県の伝統的な型染め技法で, 卓越した職人がさまざまな彫刻刀と技法を駆使して丹念に作り上げる独特の風合いが特徴. ",
+        "address": "三重県鈴鹿市寺家3-10-1",
+        "postcode": "〒510-0254",
+        "URL": "https://isekatagami.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.584595,
+          34.823189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "高岡漆器",
+        "ID": "119",
+        "region": "北陸",
+        "prefectures": "富山",
+        "category": "漆器",
+        "overview": "富山県の伝統的な漆器で,「 青貝塗」「勇助塗」「彫刻塗」の3つの技法に代表される幅広い作風を楽しめることが特徴. プラスチックやガラスなどさまざまな素材を使った変り塗が登場.",
+        "address": "富山県高岡市御旅屋町101御旅屋セリオ2階",
+        "postcode": "〒933-0029",
+        "URL": "https://takaokashikki.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.014053,
+          36.745544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "井波彫刻",
+        "ID": "120",
+        "region": "北陸",
+        "prefectures": "富山",
+        "category": "木工品・竹工品",
+        "overview": "富山県の伝統的な木彫刻・木工品で, 立体的で躍動感のある高度な木工技術が特徴. 花鳥風月, 人物, 動物などを題材に欄間や置物, 衝立などの製品が作られている.",
+        "address": "富山県南砺市井波北川733",
+        "postcode": "〒932-0226",
+        "URL": "https://inamichoukoku.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.97673,
+          36.564026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "高岡銅器",
+        "ID": "121",
+        "region": "北陸",
+        "prefectures": "富山",
+        "category": "漆器",
+        "overview": "富山県の伝統的な銅器で, 銅器販売額・銅器生産量ともに, 国内でトップクラスと言える. 職人の熟練した手業を駆使した鋳造技術と「研磨・彫金・象嵌」といった加工技術が施されていることが特徴.",
+        "address": "富山県高岡市御旅屋町101御旅屋セリオ2階",
+        "postcode": "〒933-0029",
+        "URL": "http://www.doukikumiai.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.014053,
+          36.745544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "越中和紙",
+        "ID": "122",
+        "region": "北陸",
+        "prefectures": "富山",
+        "category": "和紙",
+        "overview": "富山県の伝統的な和紙で, 産地ごとに少しずつ用途が異なっており, さまざまな種類の和紙があるのが特徴. ",
+        "address": "富山県八尾町鏡町668-4",
+        "postcode": "〒939-2341",
+        "URL": "http://www.etchu-washi.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.211304,
+          36.695267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "越中福岡の菅笠",
+        "ID": "123",
+        "region": "北陸",
+        "prefectures": "富山",
+        "category": "その他",
+        "overview": "富山県の伝統的な笠で, 福岡地域で製作する菅笠は多種にわたるが, いずれもが丸いのが特徴. お土産用の豆笠も根強い人気がある.",
+        "address": "富山県高岡市福岡町福岡1034",
+        "postcode": "〒939-0111",
+        "URL": "https://sugegasa.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.929916,
+          36.710213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "庄川挽物木地",
+        "ID": "124",
+        "region": "北陸",
+        "prefectures": "富山",
+        "category": "工芸材料・工芸用品",
+        "overview": "富山県の伝統的な工芸用具・材料で, 木本来の表情が楽しめることが特徴で, 主にケヤキが使われる. ",
+        "address": "富山県砺波市庄川町示野116（庄川商工会内）",
+        "postcode": "〒932-0315",
+        "URL": "https://www.shokoren-toyama.or.jp/~shogawa-wood/about"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.981903,
+          36.574181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "牛首紬",
+        "ID": "125",
+        "region": "北陸",
+        "prefectures": "石川",
+        "category": "織物",
+        "overview": "石川県の伝統的な織物で, 玉繭（2匹の蚕が作った繭）から糸を紡ぎ出し, 糸づくりから製織までのほとんどの作業を手作業で一貫生産していることが特徴. 耐久性に優れながらも通気性や肌触りのよさ, また, 美しい光沢がある.",
+        "address": "石川県白山市白峰ヌ170",
+        "postcode": "〒920-250",
+        "URL": "https://ushikubi-tsumugi.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.686905,
+          36.131836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "加賀友禅",
+        "ID": "126",
+        "region": "北陸",
+        "prefectures": "石川",
+        "category": "染織品",
+        "overview": "石川県の伝統的な友禅染めで、「加賀五彩」といわれる藍, 黄土, 草, 古代紫, 臙脂を基調としていることが特徴. 紅系統を生かした深い古典色の写実的な草花模様の絵画調を中心としており, 金沢の自然の美しさが感じられる.",
+        "address": "石川県金沢市小将町８８",
+        "postcode": "〒920-0932",
+        "URL": "http://www.kagayuzen.or.jp/outline/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.665436,
+          36.564037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "加賀繍",
+        "ID": "127",
+        "region": "北陸",
+        "prefectures": "石川",
+        "category": "その他",
+        "overview": "石川県の伝統的な刺繍で, 繊細な技法で縫い上げた立体的な図柄と, 華やかながらも奥ゆかしい美しさが特徴. 職人の手でひと針ひと針丹精込めて作り上げられる.",
+        "address": "石川県金沢市鞍月２丁目20",
+        "postcode": "〒920-8203",
+        "URL": "http://www.kaganui.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.621735,
+          36.595352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "九谷焼",
+        "ID": "128",
+        "region": "北陸",
+        "prefectures": "石川",
+        "category": "陶磁器",
+        "overview": "石川県の伝統的な陶磁器で, 鮮やかな色彩と大胆かつ優美な紋様、そして「上絵付け」と呼ばれる技法が特徴. ",
+        "address": "石川県能美市佐野町わ3-1",
+        "postcode": "〒923-1121",
+        "URL": "https://www.shinkutani.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.508789,
+          36.428127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "輪島塗",
+        "ID": "129",
+        "region": "北陸",
+        "prefectures": "石川",
+        "category": "漆器",
+        "overview": "石川県の伝統的な漆器で, 輪島市でしか採れない輪島地の粉を下地に使用することによって, より強度の高い漆器になっている. 見た目の美しさも輪島塗の魅力.",
+        "address": "石川県輪島市河井町24",
+        "postcode": "〒928-0001",
+        "URL": "https://wajimanuri.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.899826,
+          37.394821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "山中漆器",
+        "ID": "130",
+        "region": "北陸",
+        "prefectures": "石川",
+        "category": "漆器",
+        "overview": "石川県の伝統的な漆器で, 自然の木目と優雅な蒔絵の美しさが特徴で, 完成までに長いもので1年以上かかる場合もある.",
+        "address": "石川県加賀市山中温泉塚谷町イ2682",
+        "postcode": "〒922-0111",
+        "URL": "https://www.yamanakashikki.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.370316,
+          36.25713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "金沢漆器",
+        "ID": "131",
+        "region": "北陸",
+        "prefectures": "石川",
+        "category": "漆器",
+        "overview": "石川県の伝統的な漆器で, ほかに類を見ないと言っていい程の品位の高さ, 華麗さを持ち合わせているところが特徴. 蒔絵の高度な技法を駆使し, 豪華絢爛な美を創造している.",
+        "address": "石川県金沢市尾山町9-13 金沢商工会議所内",
+        "postcode": "〒920-8639"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.656219,
+          36.567551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "金沢仏壇",
+        "ID": "132",
+        "region": "北陸",
+        "prefectures": "石川",
+        "category": "仏壇・仏具",
+        "overview": "石川県金沢市で作られる伝統的な仏壇で, 美術工芸品として高い評価を得ている加賀蒔絵の技術がふんだんに盛り込まれていることが特徴. 良質の金箔を使っていることも金沢仏壇の魅力である.",
+        "address": "石川県金沢市石引4丁目29",
+        "postcode": "〒920-0935",
+        "URL": "http://kanazawa-butsudan.or.jp/index.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.665985,
+          36.557968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "七尾仏壇",
+        "ID": "133",
+        "region": "北陸",
+        "prefectures": "石川",
+        "category": "仏壇・仏具",
+        "overview": "石川県七尾市で作られる伝統的な仏壇で, 堅牢さと豪華さが特徴. 釘を使わないで組み立てる「ほぞ組み」という技法や、鏡板と言われる部分を二重にした「二重鏡板」という独自の技法により頑丈な構造となっている.",
+        "address": "石川県七尾市三島町70-1",
+        "postcode": "〒926-0802",
+        "URL": "https://www.icnet.or.jp/dentou/national/07.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.966431,
+          37.047897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "金沢箔",
+        "ID": "134",
+        "region": "北陸",
+        "prefectures": "石川",
+        "category": "工芸材料・工芸用品",
+        "overview": "石川県金沢市で作られる金箔で, 10円玉ほどの小さな金合金をたたみ一畳ほどの大きさまで均一に, 輝きを失うことなく延ばす職人の技術が金沢箔を作り出しており, まざまな工芸品に使われる.",
+        "address": "石川県金沢市福久町ロ172",
+        "postcode": "〒920-3122",
+        "URL": "https://hakukumiai.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.684158,
+          36.619682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "越前焼",
+        "ID": "135",
+        "region": "北陸",
+        "prefectures": "福井",
+        "category": "陶磁器",
+        "overview": "福井県の伝統的な陶磁器で、日本六古窯の一つ. 釉薬を使わずに焼かれており, 絵付けもされないことが多く, 素朴な風合いが楽しめることが特徴.",
+        "address": "福井県丹生郡越前町小曽原5-33",
+        "postcode": "〒916-0273",
+        "URL": "【越前焼公式】日本六古窯・国指定伝統的工芸品・日本遺産認定\u3000越前焼の専用サイト｜トップページ (echizenyaki.com)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.062073,
+          35.933327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "越前漆器",
+        "ID": "136",
+        "region": "北陸",
+        "prefectures": "福井",
+        "category": "漆器",
+        "overview": "福井県の伝統的な漆器で, 漆の落ち着いた光沢や上品な華やかさが特徴. 婚礼やお祝い事のハレの日に使用する漆器としても親しまれている. 国内の外食産業用, 業務用の漆器の80%以上を生産し, 先進的な越前漆器の新たなスタイルを発信している.",
+        "address": "福井県鯖江市西袋町37-６-1",
+        "postcode": "〒916-1221",
+        "URL": "https://www.echizen.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.273956,
+          35.952621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "若狭塗",
+        "ID": "137",
+        "region": "北陸",
+        "prefectures": "福井",
+        "category": "漆器",
+        "overview": "福井県の伝統的な漆器で, 卵の殻や貝殻, マツの葉などで模様をつくり, その上に漆を塗り重ねて研ぐ「研ぎ出し技法」を用いていることで独特な風格と重厚感を特徴としている.",
+        "address": "福井県小浜市福谷8丁目1-3",
+        "postcode": "〒917-0001",
+        "URL": "https://wakasa-hashi.com/cooperative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.751785,
+          35.520329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "越前箪笥",
+        "ID": "138",
+        "region": "北陸",
+        "prefectures": "福井",
+        "category": "木工品・竹工品",
+        "overview": "福井県の伝統的な箪笥で, ケヤキやキリを自然乾燥させ, 釘などを使わず木材を組み合わせて強度を高める指物技法で枠組み箪笥や板組箪笥を作る. 塗装には漆を使用している. ",
+        "address": "福井県越前市本町1-19",
+        "postcode": "〒 915-0823",
+        "URL": "https://echizentansu.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.165604,
+          35.900265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "越前打刃物",
+        "ID": "139",
+        "region": "北陸",
+        "prefectures": "福井",
+        "category": "金工品",
+        "overview": "福井県の伝統的な刃物で, 包丁の「二枚重ね」技法や鎌などの「廻し鋼着け」技法といった独特の工法による手仕上げが特徴. 独特の技法は軽くて薄く, 優れた切れ味が長く続く刃物を作り出している.",
+        "address": "福井県越前市池ノ上町49-1-3",
+        "postcode": "〒915-0873",
+        "URL": "https://www.echizenuchihamono.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.146942,
+          35.875732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "越前和紙",
+        "ID": "140",
+        "region": "北陸",
+        "prefectures": "福井",
+        "category": "和紙",
+        "overview": "福井県の伝統的な和紙で, 豊かな感性を刺激する生成色の優雅な美しさと, 高い品質が特徴. ",
+        "address": "福井県越前市新在家町8-44パピルス館内",
+        "postcode": "〒915-0232",
+        "URL": "https://echizen-washi.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.243271,
+          35.911324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "若狭めのう細工",
+        "ID": "141",
+        "region": "北陸",
+        "prefectures": "福井",
+        "category": "貴石細工",
+        "overview": "福井県の伝統的な石工品・貴石細工で, 炎のように鮮やかで赤く半透明な色彩が特徴. 若狭めのう細工は, 日本における貴石細工のルーツとしても知られている.",
+        "address": "福井県小浜市川崎3丁目4",
+        "postcode": "〒917-0078",
+        "URL": "http://wakasa-koubou.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.737686,
+          35.501396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "近江上布",
+        "ID": "142",
+        "region": "近畿",
+        "prefectures": "滋賀",
+        "category": "織物",
+        "overview": "滋賀県の伝統的な上布で, 細い麻の繊維で織られる爽やかな風合いと上品な絣模様が特徴. ",
+        "address": "滋賀県愛知郡愛荘町愛知川32-2",
+        "postcode": "〒529-1331",
+        "URL": "https://omi-jofu.com/aboutus/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.211914,
+          35.169109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "信楽焼",
+        "ID": "143",
+        "region": "近畿",
+        "prefectures": "滋賀",
+        "category": "陶磁器",
+        "overview": "滋賀県信楽町で焼かれる陶磁器で, 粗めの土質を用いて耐火性が高いことが特徴. 焼成する工程によって, ピンクやほのかな赤色に発色し, 赤褐色系統の火色が生まれる.",
+        "address": "滋賀県甲賀市信楽町江田985",
+        "postcode": "〒529-1811",
+        "URL": "https://www.593touki.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.048477,
+          34.864288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "彦根仏壇",
+        "ID": "144",
+        "region": "近畿",
+        "prefectures": "滋賀",
+        "category": "仏壇・仏具",
+        "overview": "滋賀県彦根市で作られる伝統的な仏壇で, 蒔絵や金箔をふんだんに取り入れた豪華絢爛さが特徴. 高級な素材を惜しげもなく使用した, 4尺以上の大型仏壇が多く, 高級仏壇の代名詞.",
+        "address": "滋賀県彦根市中央町38",
+        "postcode": "〒522-0063",
+        "URL": "http://www.hikone-butsudan.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.254761,
+          35.269451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "西陣織",
+        "ID": "145",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "織物",
+        "overview": "京都府の伝統的な織物で, 多彩な織り方が発達していことが特徴的. そして生地は先染めをしてから織っているため, 一般的な染色法である後染めよりも丈夫で, シワになりにくい点も魅力の一つ.",
+        "address": "京都市上京区堀川通今出川南入西側",
+        "postcode": "〒602-8216",
+        "URL": "https://nishijin.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.75156,
+          35.028936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京鹿の子紋",
+        "ID": "146",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "染織品",
+        "overview": "京都府の伝統的な染色品. 布を糸で括って染め上げる染色技法の1つで, 括られた部分が染色されずに白く残ることで模様を表現する. 染め上がった模様が子鹿の斑点を連想させるため, 「鹿の子絞」と呼ばれる.",
+        "address": "京都市中京区西洞院通四条西北角京染会館5F",
+        "postcode": "〒604-8225",
+        "URL": "https://kyokanoko-shibori.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.751709,
+          35.010365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京友禅",
+        "ID": "147",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "染織品",
+        "overview": "京都府の伝統的な染め技法で, 豊かな色彩と絵画的に動物や器物を表現する友禅模様と呼ばれる文様が特徴. ",
+        "address": "京都市下京区新町通四条下ル四条町349京都友禅ビル内",
+        "postcode": "〒600-8441",
+        "URL": "https://kyo-yuzen.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.757706,
+          34.989635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京小紋",
+        "ID": "148",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "染織品",
+        "overview": "京都府の伝統的な織物で, 雅びではんなりとした柔らかな雰囲気の色柄が特徴. 近年ではモダンなデザインも登場している.",
+        "address": "京都市下京区新町通四条下ル四条町349京都友禅ビル内",
+        "postcode": "〒600-8442",
+        "URL": "https://kyo-yuzen.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.757706,
+          34.989635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京黒紋染付",
+        "ID": "149",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "染織品",
+        "overview": "京都府の伝統的な染色品で, 葬儀の際に着る喪服や婚礼の際に着る黒留袖といった礼服としての冠婚葬祭の衣装として用いられており、深い気品ある上質な黒色に染め上げる点が特徴.",
+        "address": "京都府京都市中京区壬生松原町51-1",
+        "postcode": "〒604-8823",
+        "URL": "http://www.kmontsuki.co.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.74057,
+          35.000496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京繍",
+        "ID": "150",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "その他",
+        "overview": "京都府の伝統的な刺繍で, 絹糸や金糸、銀糸を使い30通りもの技法を駆使した完成度の高さが特徴. 日本独特の優美な表現を著した京繍は江戸時代には輸出品として海外で人気を博した. ",
+        "address": "京都府京都市北区平野鳥居前町５",
+        "postcode": "〒603-8321",
+        "URL": "https://www.kyounui.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.733978,
+          35.033077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京組みひも",
+        "ID": "151",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "その他",
+        "overview": "京都府の伝統的な紐で, 複雑に組み上げられた繊細な編み目と優美な光沢が特徴. 優雅な見た目だけでなく実用面でも優れており, なかなか切れない強度と締めた時のしっかりとした締まり具合には定評がある.",
+        "address": "京都府京都市上京区智恵光院通リ中立売上ル新白水丸町462の4",
+        "postcode": "〒 602-8205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.746445,
+          35.026989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京焼・清水焼",
+        "ID": "152",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "陶磁器",
+        "overview": "京都府で焼かれる陶磁器で, 特徴は他の産地のものと違いさまざまな技法で多種類の焼き物を焼いていること. 窯ごとに異なる特色を持ち, 色絵陶器をはじめ染付・天目・青磁・粉引など数多くの焼き物が焼かれている.",
+        "address": "東山区五条通東大路東入 京都陶磁器会館内",
+        "postcode": "〒605-0865"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.771057,
+          34.995384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京漆器",
+        "ID": "153",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "漆器",
+        "overview": "京都府の伝統的な漆器で, 他の漆器と比べて木地が薄く繊細な雰囲気を感じることが特徴. その薄さにより, 独特の繊細さがより強調されている.",
+        "address": "京都府京都市左京区岡崎成勝寺町9-1 勧業館（みやこめっせ）2階 KYOオフィス",
+        "postcode": "〒606-8343",
+        "URL": "https://www.kyo-shikki.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.781433,
+          35.013077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京指物",
+        "ID": "154",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "木工品・竹工品",
+        "overview": "京都府の伝統的な木工品で, 京都らしい上品なデザインが特徴. 木と木を組み合わせて作られた家具や調度品などの総称を指物と言う.",
+        "address": "京都市上京区衣棚通丸太町上る今薬屋町319矢野方",
+        "postcode": "〒602-8025",
+        "URL": "https://kyou-sashimono.blogspot.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.756714,
+          35.029552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京仏壇",
+        "ID": "155",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "仏壇・仏具",
+        "overview": "京都府で作られる伝統的な仏壇で, そのほとんどは寺院用として納められている. ひとつひとつの工程が細かく分業されていることによる、職人たちの技術力の高さが特徴.",
+        "address": "京都市下京区西洞院通七条下る サンプレ京都ビル",
+        "postcode": "〒600-8216",
+        "URL": "https://kyobutsugu.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.755444,
+          34.988396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京仏具",
+        "ID": "156",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "仏壇・仏具",
+        "overview": "京都府の伝統的な仏具で, 現在も全国の寺院の80％もの仏具が生産されている. 長い伝統により磨かれた品質や技術が特徴.",
+        "address": "京都市下京区西洞院通七条下る サンプレ京都ビル",
+        "postcode": "〒600-8217",
+        "URL": "https://kyobutsugu.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.755407,
+          34.988381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京石工芸品",
+        "ID": "157",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "石工品",
+        "overview": "京都府の伝統的な石工品で, すべての工程を一人の石工が担う伝統的な技法が特徴.",
+        "address": "京都府京都市上京区六町目6-210",
+        "postcode": "〒602-8035",
+        "URL": "https://kyoishikumiai.jp/wp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.752304,
+          35.018131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京人形",
+        "ID": "158",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "人形・こけし",
+        "overview": "京都府で作られる日本人形で, 製作工程が細かく分業化されていることにより生み出される高い品質と深い趣が特徴. ",
+        "address": "京都市中京区高倉通三条下ル",
+        "postcode": "〒604-8132",
+        "URL": "http://www.kyo-ningyo.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.761856,
+          35.01099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京うちわ",
+        "ID": "159",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "その他",
+        "overview": "京都府の伝統的なうちわで, 特徴は, 竹の細骨を放射状に１本ずつ並べて団扇面を作り, 孟宗竹・漆塗り・杉染めなどで別に作った柄を後から付けた「挿し柄」構造であること.",
+        "address": "京都市中京区蛸薬師通烏丸西入橋弁慶町222",
+        "postcode": "〒604-8151",
+        "URL": "https://sensu-uchiwa.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.758692,
+          35.006024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "京表具",
+        "ID": "160",
+        "region": "近畿",
+        "prefectures": "京都",
+        "category": "その他",
+        "overview": "京都府の伝統的な表具で, 京都の長い歴史の中で成熟してきた上品な趣が特徴. 機能性にも優れており. 掛軸などは巻いて保存ができるため, 場所を取ることもなく持ち歩きにも便利.",
+        "address": "京都市下京区四条通室町東入函谷鉾町７８京都経済センター420",
+        "postcode": "〒600-8009",
+        "URL": "https://kyo-hyougu.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.758456,
+          35.002869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "浪華本染め",
+        "ID": "161",
+        "region": "近畿",
+        "prefectures": "大阪",
+        "category": "染色品",
+        "overview": "大阪府の伝統的な染色法で, 表裏両面から染色するため, 表も裏も同じ柄が同じ色合いで出るのが特徴. 職人たちによって醸し出される手染ならではの伝統色の風合いとその染色技法は, 浪華本染めとして現代に受け継がれている.",
+        "address": "大阪市中央区久太郎町1丁目8-15 浪華ビル1階",
+        "postcode": "〒541-0056",
+        "URL": "https://www.osaka-orisen.com/#!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.507385,
+          34.680408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大阪欄間",
+        "ID": "162",
+        "region": "近畿",
+        "prefectures": "大阪",
+        "category": "木工品・竹工品",
+        "overview": "大阪府の伝統的な木工品で, 日本家屋において, 部屋と部屋, あるいは部屋と廊下の境となる場所で, 天井と鴨居の間に取り付けられる部材のことを指す. 「彫刻欄間」や「透かし彫り欄間」など, さまざまな技法があることが特徴. ",
+        "address": "大阪府摂津市鳥飼野々1丁目2724",
+        "postcode": "〒 566-0053",
+        "URL": "https://osaka-ranma.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.579636,
+          34.772869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大阪唐木指物",
+        "ID": "163",
+        "region": "近畿",
+        "prefectures": "大阪",
+        "category": "木工品・竹工品",
+        "overview": "大阪府の伝統的な木工品で, 漆を重ねることで鏡のように滑らかな光沢を持つ表面と重厚感ある味わいのある色合いが特徴.",
+        "address": "大阪府大阪市生野区巽南1丁目8－25",
+        "postcode": "〒544-0015",
+        "URL": "https://takumi-no-ichi.jp/shops/128"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.546616,
+          34.639893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大阪泉州桐箪笥",
+        "ID": "164",
+        "region": "近畿",
+        "prefectures": "大阪",
+        "category": "木工品・竹工品",
+        "overview": "大阪府泉州地域で作られる桐箪笥で, 厚みのある良質な桐を使った上品なつくりが特徴. 矧ぎ加工」と言われる高度な技術を駆使して作られ, 職人による繊細で優美なつくりを評して日本で最高峰の桐箪笥と言われることも.",
+        "address": "大阪府岸和田市荒木町2丁目18-5",
+        "postcode": "〒596-0004",
+        "URL": "https://www.hatsune-kagu.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.40094,
+          34.472454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大阪金剛簾",
+        "ID": "165",
+        "region": "近畿",
+        "prefectures": "大阪",
+        "category": "木工品・竹工品",
+        "overview": "大阪府の伝統的な竹工品で, 天然竹を活かした優雅で格調高い簾は, 室内の装飾として使われ, 日本的な雰囲気のある優しい美しさを備えている.",
+        "address": "大阪府富田林市若松町2丁目4-25",
+        "postcode": "〒584-0024",
+        "URL": "https://eemon-osaka.com/craft/28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.605438,
+          34.506351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "堺打刃物",
+        "ID": "166",
+        "region": "近畿",
+        "prefectures": "大阪",
+        "category": "金工品",
+        "overview": "大阪府堺市で作られる伝統的な刃物で, 熟練の職人による優れた「鍛造」と「研ぎ」の技術による研ぎすまされた刃先の「切れ味」が特徴. ",
+        "address": "大阪府堺市堺区材木町西1丁目130堺伝匠館2階",
+        "postcode": "〒590-0941",
+        "URL": "https://www.sakaihamono.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.477493,
+          34.583202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大阪浪華銀器",
+        "ID": "167",
+        "region": "近畿",
+        "prefectures": "大阪",
+        "category": "金工品",
+        "overview": "大阪府の伝統的な金工品で, 一点一点職人の手による加工を行うために微妙な違いがあり, 金属でありながら人の手のぬくもりを感じられることが特徴. 錫は軟らかく機械加工が難しいため、ほとんどの作業を人の手によって行われる.",
+        "address": "大阪府大阪市東住吉区田辺6丁目6-15大阪錫器株式会社内",
+        "postcode": "〒546-0031",
+        "URL": "https://kougeihin.jp/craft/0711/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.529449,
+          34.625965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大阪仏壇",
+        "ID": "168",
+        "region": "近畿",
+        "prefectures": "大阪",
+        "category": "仏壇・仏具",
+        "overview": "大阪府で作られる伝統的な仏壇で, 「高蒔絵」と呼ばれる技法を用いて漆を高く盛り上げ, あたかも錺金具をつけたような装飾が施されていることが特徴. ",
+        "address": "大阪府堺市美原区太井355",
+        "postcode": "〒587-0062",
+        "URL": "https://osakabutsudan.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.549652,
+          34.546066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "丹波断立杭焼",
+        "ID": "169",
+        "region": "近畿",
+        "prefectures": "兵庫",
+        "category": "陶磁器",
+        "overview": "兵庫県丹波地域で焼かれる陶器で, 日本六古窯の1つ. 「灰被り」という独特の色と模様が特徴. 他の陶器の多くが右回りのろくろで作られるのに対し, 丹波立杭焼で使用するろくろは左回りで作られる.",
+        "address": "兵庫県丹波篠山市今田町上立杭3",
+        "postcode": "〒669-2135",
+        "URL": "https://tanbayaki.com/kumiai/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.12738,
+          34.980434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "出石焼",
+        "ID": "170",
+        "region": "近畿",
+        "prefectures": "兵庫",
+        "category": "陶磁器",
+        "overview": "兵庫県出石町で焼かれる磁器で, 特徴は国内でも珍しい白磁という点. 柿谷陶石という純白の原料を使って少しの濁りもなく完成した磁器は, 他に例を見ないほどの圧倒的な白さを誇る.",
+        "address": "兵庫県豊岡市出石町内町 104-7",
+        "postcode": "〒668-0214",
+        "URL": "https://www.ceramic.or.jp/museum/yakimono/contents/izushi/sanchi_izushi.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.873383,
+          35.461838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "豊岡杞柳細工",
+        "ID": "171",
+        "region": "近畿",
+        "prefectures": "兵庫",
+        "category": "木工品・竹工品",
+        "overview": "兵庫県豊岡市で作られる伝統的な木工品で, 自然素材の優しい風合いでありながら, しなやかで強靭な柳の特性から丈夫であることが特徴. 全て職人の手で一つひとつ編まれた製品はどこか温もりに溢れ, 生活に溶け込む実用的な伝統工芸品.",
+        "address": "兵庫県豊岡市赤石1362",
+        "postcode": "〒668-0801",
+        "URL": "https://genbudo-museum.jp/kiryu/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.802795,
+          35.586983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "播州三木打刃物",
+        "ID": "172",
+        "region": "近畿",
+        "prefectures": "兵庫",
+        "category": "金工品",
+        "overview": "兵庫県三木市で作られる金工品で, 現在も昔ながらの製法で多種多様な刃物が作られている. ",
+        "address": "兵庫県三木市本町2丁目118",
+        "postcode": "〒673-0431",
+        "URL": "https://www.miki-kanamono.or.jp/product/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.984039,
+          34.797672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "播州そろばん",
+        "ID": "173",
+        "region": "近畿",
+        "prefectures": "兵庫",
+        "category": "文具",
+        "overview": "兵庫県の伝統的な算盤で, 部品ごとに作業工程を分業化していることが特徴で,生産量の多さと技術の高さから, 兵庫県を代表する伝統工芸品になった.",
+        "address": "兵庫県小野市本町600",
+        "postcode": "〒675-1372",
+        "URL": "https://banshusoroban.com/index.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.937866,
+          34.846931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "播州毛鉤",
+        "ID": "174",
+        "region": "近畿",
+        "prefectures": "兵庫",
+        "category": "その他",
+        "overview": "兵庫県の伝統的な毛鉤で、小さな鉤に鳥の羽が絹糸で巻かれ,金箔や漆の装飾によって本物の水中昆虫にもしている。",
+        "address": "兵庫県西脇市西脇990",
+        "postcode": "〒677-0015",
+        "URL": "http://www.bantsuri.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.96875,
+          34.985016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "高山茶筅",
+        "ID": "175",
+        "region": "近畿",
+        "prefectures": "奈良",
+        "category": "木工品・竹工品",
+        "overview": "奈良県高山市で作られる茶筅で、丁寧な手作りが特徴です。国内茶筅シェアはトップクラスを誇る",
+        "address": "奈良県生駒市高山町",
+        "postcode": "〒630-0101",
+        "URL": "http://takayamachasenkumiai.com/index.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.723389,
+          34.753838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "奈良墨",
+        "ID": "176",
+        "region": "近畿",
+        "prefectures": "奈良",
+        "category": "文具",
+        "overview": "奈良県の伝統的な墨で, 制作工程には墨職人の繊細な技術が必要なため機械化できる作業がなく, 今もなお手作業で行われている.",
+        "address": "奈良県奈良市南京終町7-576",
+        "postcode": "〒630-8141",
+        "URL": "http://www.sumi-nara.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.826828,
+          34.666138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "奈良筆",
+        "ID": "177",
+        "region": "近畿",
+        "prefectures": "奈良",
+        "category": "文具",
+        "overview": "奈良県で作られる伝統的な筆で,発祥の地とも呼ばれる。十種類の動物の毛を原料とし,練り混ぜ法によって異なる毛質を巧みに組み合わせる伝統的な技法で作り上げる。",
+        "address": "奈良県奈良市南新町78-1",
+        "postcode": "〒630-8016",
+        "URL": "https://kougeihin.jp/craft/1005/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.797897,
+          34.677673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "紀州漆器",
+        "ID": "178",
+        "region": "近畿",
+        "prefectures": "和歌山",
+        "category": "漆器",
+        "overview": "和歌山県の伝統的な漆器で、黒江塗とも呼ばれる。シンプルで丈夫,実用的であり,江戸時代より庶民に親しまれてきた。近年では現代のニーズに応えた商品も登場している",
+        "address": "和歌山県海南市船尾222",
+        "postcode": "〒642-0001",
+        "URL": "https://www.kishusikki.com/09_kumiai.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.203644,
+          34.160389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "紀州箪笥",
+        "ID": "179",
+        "region": "近畿",
+        "prefectures": "和歌山",
+        "category": "木工品・竹工品",
+        "overview": "和歌山県の伝統的な箪笥で、衣服の保管,収納に優れており,和室にも洋室にも上品に馴染む。",
+        "address": "和歌山県和歌山市七丁23",
+        "postcode": "〒640-8511",
+        "URL": "https://kishutansu.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.162857,
+          34.227917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "紀州へら竿",
+        "ID": "180",
+        "region": "近畿",
+        "prefectures": "和歌山",
+        "category": "木工品・竹工品",
+        "overview": "和歌山県の伝統的な釣り竿で、へら鮒釣りに使われる竹竿。完成まで130の工程があり,ひとりの手作業で行う。高価。",
+        "address": "和歌山県橋本市清水385-2",
+        "postcode": "〒648-0041",
+        "URL": "https://seikankumiai.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.596497,
+          34.306751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "弓浜絣",
+        "ID": "181",
+        "region": "中国",
+        "prefectures": "鳥取",
+        "category": "織物",
+        "overview": "鳥取県の伝統的な絣染めで、藍色の糸で紡いだものを生地の土台にし,その上に白い糸で模様を編んでいく。ざっくりとした風合いで,庶民に親しまれている。",
+        "address": "鳥取県米子市上福原738-5",
+        "postcode": "〒683-0004",
+        "URL": "https://sites.google.com/view/yumihamagasuri/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.357193,
+          35.435753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "因州和紙",
+        "ID": "182",
+        "region": "中国",
+        "prefectures": "鳥取",
+        "category": "和紙",
+        "overview": "鳥取県因美地域で作られる和紙で、天然の繊維が活かされた温かみのあるしなやかさで酸化しにくく,自然な強さを持つ。全国トップクラスの生産量を誇る。",
+        "address": "鳥取県鳥取市青谷町山根128-5",
+        "postcode": "〒689-0514",
+        "URL": "http://inshu-washi.net/inshu-washi.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.018021,
+          35.47443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "出雲石燈篭",
+        "ID": "183",
+        "region": "中国",
+        "prefectures": "鳥取",
+        "category": "石工品",
+        "overview": "鳥取県境港市で作られる石の灯篭で、苔が早く定着する吸水性に富んだ来待石によって作られるため,自然に溶け込みやすく,長い年月とともに青灰色から灰褐色へと変化していく。",
+        "address": "島根県松江市宍道町東来待1644−1",
+        "postcode": "〒699-0404",
+        "URL": "https://kougeihin.jp/craft/1104/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.947998,
+          35.413811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "石見焼",
+        "ID": "184",
+        "region": "中国",
+        "prefectures": "島根",
+        "category": "陶磁器",
+        "overview": "島根県の伝統的な陶磁器で、貯蔵用の瓶として活躍。耐寒性に優れ,吸水性が低く割れにくい",
+        "address": "島根県江津市後地町1315",
+        "postcode": "〒699-2841",
+        "URL": "https://kougeihin.jp/craft/0417/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.289948,
+          35.029816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "石州和紙",
+        "ID": "185",
+        "region": "中国",
+        "prefectures": "島根",
+        "category": "和紙",
+        "overview": "島根県の伝統的な和紙で、丈夫な構造をしており,やさしい光沢がある。１３００年もの長い歴史を持つ",
+        "address": "島根県浜田市三隅町古市場 683-3",
+        "postcode": "〒699-3225",
+        "URL": "https://sekishu.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.946045,
+          34.780235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "雲州そろばん",
+        "ID": "186",
+        "region": "中国",
+        "prefectures": "島根",
+        "category": "文具",
+        "overview": "島根県の伝統的な算盤で、指に吸い付くような操作性の高さが特徴。現在でも手作り製法を維持し,材料の吟味含め,丁寧に作られている。",
+        "address": "島根県仁多郡奥出雲町下横田76-5",
+        "postcode": "〒699-1822",
+        "URL": "https://unsyusoroban.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0811,
+          35.165047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "出雲石燈篭",
+        "ID": "187",
+        "region": "中国",
+        "prefectures": "島根",
+        "category": "石工品",
+        "overview": "島根県出雲市で作られる石の灯篭で、苔が早く定着する吸水性に富んだ来待石によって作られるため,自然に溶け込みやすく,長い年月とともに青灰色から灰褐色へと変化していく。",
+        "address": "島根県松江市宍道町東来待１６４４−１",
+        "postcode": "〒699-0404",
+        "URL": "https://kougeihin.jp/craft/1104/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.947998,
+          35.413811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "備前焼",
+        "ID": "188",
+        "region": "中国",
+        "prefectures": "岡山",
+        "category": "陶磁器",
+        "overview": "岡山県の伝統的な陶磁器で、日本六古窯の1つ。釉薬を使用しないため,素朴な作りと風合いが特徴。一つとして同じものはない。ヒヨセと呼ばれる備前の粘土が釉薬が乗りにくい性質のため,この性質をいかに生かすかが考えられた。",
+        "address": "岡山県備前市伊部1657-7",
+        "postcode": "〒705-0001",
+        "URL": "https://touyuukai.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.162323,
+          34.738743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "勝山竹細工",
+        "ID": "189",
+        "region": "中国",
+        "prefectures": "岡山",
+        "category": "木工品・竹工品",
+        "overview": "岡山県勝山地域で作られる伝統的な竹細工で、加工を最低限とした青竹を使用,丈夫さと使いやすさを実現している。年月を経ると飴色に変化する",
+        "address": "岡山県真庭市勝山319",
+        "postcode": "〒717-0013",
+        "URL": "https://kougeihin.jp/craft/0628/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.691452,
+          35.079956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宮島細工",
+        "ID": "190",
+        "region": "中国",
+        "prefectures": "広島",
+        "category": "木工品・竹工品",
+        "overview": "広島県宮島地域で作られる伝統的な木工品で、水に濡らし木目を目立たせて磨く丁寧な仕上げにより,ご飯に木の匂いが移らず,米粒がつきにくいという使いやすさが特徴。生産量は日本一を誇る。",
+        "address": "広島県廿日市市宮島町1165-9",
+        "postcode": "〒739-0505",
+        "URL": "https://miyajimazaiku.com/kumiai/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.323425,
+          34.301968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "広島仏壇",
+        "ID": "191",
+        "region": "中国",
+        "prefectures": "広島",
+        "category": "仏壇・仏具",
+        "overview": "広島県で作られる伝統的な仏壇で、高度な漆塗り技法と純金細工が特徴です",
+        "address": "広島県広島市中区堀川町2-16",
+        "postcode": "〒730-0033",
+        "URL": "https://h-bok.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.465088,
+          34.391743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "熊野筆",
+        "ID": "192",
+        "region": "中国",
+        "prefectures": "広島",
+        "category": "文具",
+        "overview": "広島県で作られる伝統的な筆で、コシがありながら繊細な筆が特徴で す。獣毛を原料としており,穂先の毛を切り揃えず木型を利用して穂先を出す。穂首を熊野町内で制作されたもののみ名乗れる。",
+        "address": "広島県安芸郡熊野町中溝３丁目 13-19",
+        "postcode": "〒731-4214",
+        "URL": "https://www.kumanofude.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.583405,
+          34.338249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "川尻筆",
+        "ID": "193",
+        "region": "中国",
+        "prefectures": "広島",
+        "category": "文具",
+        "overview": "広島県で作られる伝統的な筆で、美しい毛並みと使いやすさが特徴で す。「練り混ぜ」という高度な毛混ぜ乃製法を用い,工程の一部始終を一人の人間が分業せずに行う。",
+        "address": "広島県呉市川尻町西１丁目2-2",
+        "postcode": "〒737-2603",
+        "URL": "https://association-or-organization-5388.business.site/#summary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.694534,
+          34.233997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "福山琴",
+        "ID": "194",
+        "region": "中国",
+        "prefectures": "広島",
+        "category": "その他",
+        "overview": "広島県福山市で作られる伝統的な琴で、心地よい音色が特徴です。楽器唯一の伝統工芸品であり,装飾の華麗さや木目の美しさも日本随一とされる",
+        "address": "広島県福山市西町二丁目101",
+        "postcode": "〒720-0067",
+        "URL": "https://www.fukuyama.or.jp/dentou/fukuyamakoto/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.357071,
+          34.490112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "萩焼",
+        "ID": "195",
+        "region": "中国",
+        "prefectures": "山口",
+        "category": "陶磁器",
+        "overview": "山口県の伝統的な陶磁器で、装飾をほとんど行わない素朴な風合いと同じものが二つとない独特の風合いが特徴です。焼成時の変化を利用し陶磁器の個性をだす",
+        "address": "山口県萩市東田町19-4",
+        "postcode": "〒758-0047",
+        "URL": "https://hagi-yaki.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.403687,
+          34.412113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大内塗",
+        "ID": "196",
+        "region": "中国",
+        "prefectures": "山口",
+        "category": "漆器",
+        "overview": "渋みのある深い朱色の地塗り上に秋の草を描き,金箔で大内菱をあしらった優美な柄が特徴。漆を何度も重ねるため,丈夫で退色しにくい。",
+        "address": "山口県山口市大内御堀4138",
+        "postcode": "〒753-0214",
+        "URL": "https://nakamuramingeisha.jimdo.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.501541,
+          34.134716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "赤間硯",
+        "ID": "197",
+        "region": "中国",
+        "prefectures": "山口",
+        "category": "文具",
+        "overview": "採石から彫刻までこだわって作られる高級硯であり、発色も伸びも良い墨汁ができると評される。実用性と美術性を両立している点が特徴です",
+        "address": "山口県宇部市大字西万倉793",
+        "postcode": "〒757-0214",
+        "URL": "https://www.kusunoki-shokokai.jp/%E4%BC%9A%E5%93%A1%E4%BC%81%E6%A5%AD-1/%E8%B5%A4%E9%96%93%E7%A1%AF%E7%94%9F%E7%94%A3%E5%8D%94%E5%90%8C%E7%B5%84%E5%90%88/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.225784,
+          34.082935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "阿波正藍しじら織",
+        "ID": "198",
+        "region": "四国",
+        "prefectures": "徳島",
+        "category": "織物",
+        "overview": "徳島県阿波地域で作られる伝統的なしじら織で、藍染と独特な凹凸,「シボ」の美しい模様が特徴。凹凸による生地の軽さと肌触りの良さにより夏でも過ごしやすい衣料とされる。",
+        "address": "徳島県徳島市国府町府中字宮ノ西6792国府町商工会内",
+        "postcode": "〒779-3122",
+        "URL": "https://t-dentosangyo.com/organizer/awa-sijiraori/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.480072,
+          34.07349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大谷焼",
+        "ID": "199",
+        "region": "四国",
+        "prefectures": "徳島",
+        "category": "陶磁器",
+        "overview": "徳島県の伝統的な陶磁器で、寝ろくろという代表的な製法が存在する。日本一の大きさの登り窯も。ざらつきのある風合いとかすかな光沢を放つ質感が特徴です",
+        "address": "徳島県鳴門市大麻町大谷字西台3",
+        "postcode": "〒779-0302",
+        "URL": "https://r.goope.jp/ootaniyaki/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.540283,
+          34.160034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "阿波和紙",
+        "ID": "200",
+        "region": "四国",
+        "prefectures": "徳島",
+        "category": "和紙",
+        "overview": "徳島県の伝統的な和紙で、基本的な和紙の材料に加え,麻や竹,桑が用いられる。手漉きによる丈夫な和紙が特徴です",
+        "address": "徳島県吉野川市山川町川東１４１",
+        "postcode": "〒779-3401",
+        "URL": "https://takumi-no-ichi.jp/shops/180"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.229492,
+          34.04435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "香川漆器",
+        "ID": "201",
+        "region": "四国",
+        "prefectures": "香川",
+        "category": "漆器",
+        "overview": "香川県の伝統的な漆器で、東南アジアから伝わった技法で,割れづらく,かる美しい蒔絵や彫刻が施された逸品があり ます。",
+        "address": "香川県高松市春日町1595",
+        "postcode": "〒761-0101",
+        "URL": "https://www.kagawashikki.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.088226,
+          34.335766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "丸亀うちわ",
+        "ID": "202",
+        "region": "四国",
+        "prefectures": "香川",
+        "category": "その他",
+        "overview": "香川県丸亀市で作られるうちわで、繊細な彫刻や絵柄が特徴です。国内の生産の多くを占めており,一つ一つ手作業で作られています",
+        "address": "香川県 丸亀市 港町307-15",
+        "postcode": "〒763-0042",
+        "URL": "https://marugameuchiwa.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.79454,
+          34.300529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "砥部焼",
+        "ID": "203",
+        "region": "四国",
+        "prefectures": "愛媛",
+        "category": "陶磁器",
+        "overview": "愛媛県の伝統的な陶磁器で、やや灰色みが感じられながらも光を通すほどの白い磁肌が特徴です",
+        "address": "愛媛県伊予郡砥部町大南604",
+        "postcode": "〒791-2132",
+        "URL": "https://www.tobeyaki.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.78952,
+          33.727814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大洲和紙",
+        "ID": "204",
+        "region": "四国",
+        "prefectures": "愛媛",
+        "category": "和紙",
+        "overview": "愛媛県の伝統的な和紙で、薄くて漉きムラが少ない高級和紙として地位を築く。",
+        "address": "愛媛県喜多郡内子町平岡甲1240-1",
+        "postcode": "〒795-0303"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.658905,
+          33.535622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "土佐打刃物",
+        "ID": "205",
+        "region": "四国",
+        "prefectures": "高知",
+        "category": "金工品",
+        "overview": "高知県で作られる伝統的な刃物で、鋭い切れ味と高い耐久性が特徴です。",
+        "address": "高知県香美市土佐山田町上改田113-1",
+        "postcode": "〒782-0056",
+        "URL": "http://tosahamono.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.669403,
+          33.621342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "土佐和紙",
+        "ID": "206",
+        "region": "四国",
+        "prefectures": "高知",
+        "category": "和紙",
+        "overview": "高知県の伝統的な和紙で、美しい手漉きの和紙が特徴です。３００と種類が多く,また薄くて丈夫という特徴がある。",
+        "address": "高知県吾川郡いの町波川287-4",
+        "postcode": "〒781-2128",
+        "URL": "http://www.tosawashi.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.412216,
+          33.545059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "博多織",
+        "ID": "207",
+        "region": "九州",
+        "prefectures": "福岡",
+        "category": "織物",
+        "overview": "福岡県の伝統的な織物で、独特の張りのある美しい柄織りと,厚みによってもたらされる丈夫さが特徴です",
+        "address": "福岡県福岡市博多区奈良屋町510",
+        "postcode": "〒812-0023",
+        "URL": "https://hakataori.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.405823,
+          33.599102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "久留米絣",
+        "ID": "208",
+        "region": "九州",
+        "prefectures": "福岡",
+        "category": "織物",
+        "overview": "福岡県の伝統的な絣染めで日本三大絣の1つであり,柄の掠れやにじみが特徴。",
+        "address": "福岡県久留米市東合川5丁目85",
+        "postcode": "〒839-0809",
+        "URL": "https://kurumekasuri.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555115,
+          33.31921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "小石原焼",
+        "ID": "209",
+        "region": "九州",
+        "prefectures": "福岡",
+        "category": "陶磁器",
+        "overview": "福岡県の伝統的な陶磁器で、ろくろを回しなが模様付けしていく技法によって生まれる独特の模様が特徴で,焼き上がりは素朴ながら上品な風合いを醸しており,実用性も備えている。",
+        "address": "福岡県朝倉郡東峰村大字小石原730-9",
+        "postcode": "〒838-1601",
+        "URL": "https://0946.info/?p=154"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.812576,
+          33.469749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "上野焼",
+        "ID": "210",
+        "region": "九州",
+        "prefectures": "福岡",
+        "category": "陶磁器",
+        "overview": "福岡県の伝統的な陶磁器で、軽量で薄造りの格調高い風合いと種類の多い釉薬が特徴です。",
+        "address": "福岡県田川郡福智町上野2811",
+        "postcode": "〒822-1102 ",
+        "URL": "https://www.aganoyaki-fukuchi.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.780426,
+          33.72007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "八女福島仏壇",
+        "ID": "211",
+        "region": "九州",
+        "prefectures": "福岡",
+        "category": "仏壇・仏具",
+        "overview": "福岡県八女市で作られる伝統的な仏壇で、木彫りや金箔装飾が 特徴です",
+        "address": "福岡県八女市本町2丁目123-2",
+        "postcode": "〒834-0031",
+        "URL": "https://yamebutsudan.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553162,
+          33.208797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "博多人形",
+        "ID": "212",
+        "region": "九州",
+        "prefectures": "福岡",
+        "category": "人形・こけし",
+        "overview": "福岡県博多市で作られる伝統的な人形で、世界が認める素焼きの落ち着いた美しさと曲線美が特徴です",
+        "address": "福岡市博多区奈良屋町103西日本奈良屋ビル602",
+        "postcode": "〒812-0023",
+        "URL": "https://www.hakataningyo.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.405823,
+          33.599102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "八女提灯",
+        "ID": "213",
+        "region": "九州",
+        "prefectures": "福岡",
+        "category": "その他",
+        "overview": "福岡県八女市で作られる提灯で、繊細な絵柄や装飾が特徴です",
+        "address": "福岡県八女市本村425-22-2",
+        "postcode": "〒834-0063",
+        "URL": "https://yamedentoukougeikan.jimdo.com/2020/05/29/%E5%85%AB%E5%A5%B3%E6%8F%90%E7%81%AF%E5%8D%94%E5%90%8C%E7%B5%84%E5%90%88-%E7%B5%84%E5%90%88%E4%BC%9A%E5%93%A1%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552887,
+          33.214859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "伊万里・有田焼",
+        "ID": "214",
+        "region": "九州",
+        "prefectures": "佐賀",
+        "category": "陶磁器",
+        "overview": "佐賀県伊万里市と有田町で焼かれる陶磁器で、豪華な装飾と美 しい釉薬が特徴です。白,赤,藍によって織りなされる鮮やかな模様と曲線を描く耐久性の高い焼き物である",
+        "address": "佐賀県伊万里市大川内町丙2212",
+        "postcode": "〒848-0026",
+        "URL": "https://imari-toujiki.or.jp/about-the-association/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.881912,
+          33.240582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "唐津焼",
+        "ID": "215",
+        "region": "九州",
+        "prefectures": "佐賀",
+        "category": "陶磁器",
+        "overview": "佐賀県唐津市で焼かれる陶磁器で、豊かな色使いと素朴ながら粗野ではない土を感じさせる味わいが特徴 です",
+        "address": "佐賀県唐津市新興町2881-1",
+        "postcode": "〒847-0043",
+        "URL": "https://peraichi.com/landing_pages/view/gzrtc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.970139,
+          33.44595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三川内焼",
+        "ID": "216",
+        "region": "九州",
+        "prefectures": "長崎",
+        "category": "陶磁器",
+        "overview": "長崎県佐世保市周辺で焼かれる陶磁器で、独特な形状と風合いが特徴。シンプルながら鮮やかな青が魅力で,長い間高級品として扱われてきた",
+        "address": "長崎県佐世保市三川内本町343",
+        "postcode": "〒859-3151",
+        "URL": "https://www.mikawachiware.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.827332,
+          33.152245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "波佐見焼",
+        "ID": "217",
+        "region": "九州",
+        "prefectures": "長崎",
+        "category": "陶磁器",
+        "overview": "長崎県波佐見町で焼かれる陶磁器で、美しい模様と風合いが特徴。白磁と藍の染付が魅力。",
+        "address": "長崎県東彼杵郡波佐見町井石郷2239",
+        "postcode": "〒859-3711",
+        "URL": "https://www.hasamiyaki.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.911209,
+          33.139442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "長崎べっ甲",
+        "ID": "218",
+        "region": "九州",
+        "prefectures": "長崎",
+        "category": "その他",
+        "overview": "長崎県の伝統的なべっ甲細工で、美しい彫刻や装飾が施された逸 品があります",
+        "address": "長崎市松が技町433",
+        "postcode": "〒850-0921",
+        "URL": "https://bekko-nagasaki.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.94696,
+          32.805866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "小代焼",
+        "ID": "219",
+        "region": "九州",
+        "prefectures": "熊本",
+        "category": "陶磁器",
+        "overview": "長崎県の伝統的な陶磁器で、力強いフォルムながら素朴な風合いと釉薬の流しかけによって実現される大胆なデザイン性が特徴。その効果から五徳焼とも呼ばれた。",
+        "address": "熊本県荒尾市府本1712-2",
+        "postcode": "〒864-0166",
+        "URL": "https://shodaiyaki.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.506546,
+          32.975075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天草陶磁器",
+        "ID": "220",
+        "region": "九州",
+        "prefectures": "熊本",
+        "category": "陶磁器",
+        "overview": "熊本県天草地域で焼かれる陶磁器で、素朴な風合いと濁りのない美しい釉薬 が特徴です",
+        "address": "熊本県天草郡苓北町内田554-1",
+        "postcode": "〒863-2505",
+        "URL": "https://kougeihin.jp/craft/0429/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.055496,
+          32.489285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "肥後象がん",
+        "ID": "221",
+        "region": "九州",
+        "prefectures": "熊本",
+        "category": "金工品",
+        "overview": "熊本県で生産され、鉄砲や刀の鐔がルーツとなる。象の眼をかたどった魅力的な模 様が施されています。",
+        "address": "熊本県熊本市西区河内町岳1844-241",
+        "postcode": "〒861-5344",
+        "URL": "https://kougeihin.jp/craft/0714/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.645172,
+          32.823414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "山鹿灯篭",
+        "ID": "222",
+        "region": "九州",
+        "prefectures": "熊本",
+        "category": "その他",
+        "overview": "熊本県山鹿市で作られる伝統的な灯篭で、美しい彫刻と風格あるデザ インが特徴です。熊本の夏の風物詩,山鹿灯篭祭りで使用される。",
+        "address": "熊本県山鹿市山鹿1606-2",
+        "postcode": "〒861-0501",
+        "URL": "https://www.yamagatourou.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.687622,
+          33.01532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "別府竹細工",
+        "ID": "223",
+        "region": "九州",
+        "prefectures": "大分",
+        "category": "木工品・竹工品",
+        "overview": "大分県別府市で作られる伝統的な竹細工で、繊細な編み目や柔ら かな曲線が魅力です。",
+        "address": "大分県別府市光町15",
+        "postcode": "〒874-0930",
+        "URL": "https://www.beppu-take-kumiai.com/index.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.497437,
+          33.274281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "都城大弓",
+        "ID": "224",
+        "region": "九州",
+        "prefectures": "宮崎",
+        "category": "木工品・竹工品",
+        "overview": "宮崎県都城市で生産される伝統的な大弓で、力強い形状と独自のデ ザインが特徴です",
+        "address": "宮崎県都城市妻ヶ丘町8-14",
+        "postcode": "〒885-0033",
+        "URL": "https://www.miyakonojyo-yumi-kumiai.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.074631,
+          31.730715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "本場大島紬",
+        "ID": "225",
+        "region": "九州",
+        "prefectures": "鹿児島",
+        "category": "織物",
+        "overview": "鹿児島県の伝統的な紬織物で、高品質な糸と繊細な織りが美しい作 品を生み出す。光沢を抑えた上品なつやと軽くて暖かく,しわになりにくい着心地が特徴。",
+        "address": "鹿児島県鹿児島市卸本町47",
+        "postcode": "〒891-0123",
+        "URL": "https://oshimatsumugi.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.521332,
+          31.515448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "薩摩焼",
+        "ID": "226",
+        "region": "九州",
+        "prefectures": "鹿児島",
+        "category": "陶磁器",
+        "overview": "鹿児島県で焼かれる伝統的な陶磁器で、深い風合いと独特な釉薬が 特徴。",
+        "address": "鹿児島県日置市東市来町美山1571",
+        "postcode": "〒899-2431",
+        "URL": "https://satsumayaki-coop.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.364807,
+          31.641842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "川部仏壇",
+        "ID": "227",
+        "region": "九州",
+        "prefectures": "鹿児島",
+        "category": "仏壇・仏具",
+        "overview": "鹿児島県川辺町で作られる伝統的な仏壇で、精巧な彫刻と装飾が 特徴です。",
+        "address": "鹿児島県南九州市川辺町平山6140-4",
+        "postcode": "〒897-0215",
+        "URL": "https://www.kawanabe-butudan.or.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.39743,
+          31.386108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南風原花織",
+        "ID": "228",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "織物",
+        "overview": "沖縄県南風原町を中心に生産される伝統的な花織物で、刺繍のようにも見える立体的で鮮やかな花 柄が特徴です。",
+        "address": "沖縄県島尻郡南風原町本部157",
+        "postcode": "〒901-1112",
+        "URL": "https://ryukyukasuri.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.727509,
+          26.189703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "久米島紬",
+        "ID": "229",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "織物",
+        "overview": "沖縄県久米島で作られる伝統的な紬織物で、独自 の柄が魅力。天然染料により洗う度に灰汁が抜け,益々美しい色合いになる。",
+        "address": "沖縄県島尻郡久米島町真謝1878-1",
+        "postcode": "〒901-3104",
+        "URL": "https://www.kume-tumugi.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.800507,
+          26.356157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宮古上布",
+        "ID": "230",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "織物",
+        "overview": "沖縄県宮古島で生産される,苧麻という麻の繊維で作られる伝統的な上布で、琉球藍で染められているため独特の風合いと柄が特 徴です。",
+        "address": "沖縄県宮古島市上野字野原1190-188",
+        "postcode": "〒906-0201",
+        "URL": "https://miyako-joufu.com/index.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.326881,
+          24.765015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "読谷山花織",
+        "ID": "231",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "織物",
+        "overview": "沖縄県読谷村で作られる伝統的な花織物で、鮮やかな幾何学模様の花柄で,素朴ながら立体感があるため,鮮やかな雰囲気をまとっている",
+        "address": "沖縄県中頭郡読谷村字座喜味2974-2",
+        "postcode": "〒904-0301",
+        "URL": "http://www.yomitanhanaori.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.741577,
+          26.398445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "読谷山ミンサー",
+        "ID": "232",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "織物",
+        "overview": "沖縄県読谷村で生産される伝統的なミン（綿）サー（狭い帯）織物で、色鮮やか な模様が特徴です。",
+        "address": "沖縄県中頭郡読谷村字座喜味2974-3",
+        "postcode": "〒904-0302",
+        "URL": "http://www.yomitanhanaori.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.741577,
+          26.398445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "琉球絣",
+        "ID": "233",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "織物",
+        "overview": "沖縄県の伝統的な絣染めで、６００種類にも及ぶ動植物を取り入れているため,地域ごとに異なる模様や色が楽しめます。",
+        "address": "沖縄県島尻郡南風原町本部157",
+        "postcode": "〒901-1112",
+        "URL": "https://ryukyukasuri.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.727509,
+          26.189703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "首里織",
+        "ID": "234",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "織物",
+        "overview": "沖縄県の伝統的な織物で、豊かな色使いと豪華な装飾が特徴です。",
+        "address": "沖縄県那覇市首里当蔵町2丁目16",
+        "postcode": "〒903-0812",
+        "URL": "https://shuri-ori.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.720825,
+          26.220556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "与那国織",
+        "ID": "235",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "織物",
+        "overview": "沖縄県与那国島で生産される伝統的な織物で、素朴な風合いと模様\nが魅力です",
+        "address": "沖縄県八重山郡与那国町与那国175-2",
+        "postcode": "〒907-1801",
+        "URL": "https://www.town.yonaguni.okinawa.jp/donan-bunka/program5/1.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.987679,
+          24.455925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "喜如嘉の芭蕉布",
+        "ID": "236",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "織物",
+        "overview": "沖縄県喜知嘉で作られる伝統的な芭蕉布で、トンボの羽とも形容されるほど薄く,張りがあるため風通しが良い。芭蕉を栽培することでより高品質な布を実現している。",
+        "address": "沖縄県大宜味村字喜如嘉454",
+        "postcode": "〒905-1303",
+        "URL": "http://bashofu.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.155533,
+          26.690619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "八重山ミンサー",
+        "ID": "237",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "織物",
+        "overview": "沖縄県八重山地域で生産される伝統的なミンサー織物で、繊細 な模様が魅力。愛の証として愛される。末永く幸せにという想いが込められる。",
+        "address": "沖縄県石垣市新川１１２９−２",
+        "postcode": "〒907-0024",
+        "URL": "https://www.hanaori.biz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.139236,
+          24.386562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "八重山上布",
+        "ID": "238",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "織物",
+        "overview": "沖縄県八重山地域で作られる伝統的な上布で、素朴な風合いと美 しい色使いが特徴です。",
+        "address": "沖縄県石垣市字登野城783-2",
+        "postcode": "〒907-0004",
+        "URL": "https://okinawa-kougeinomori.jp/database/union/2966"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.167686,
+          24.340727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "知花花織",
+        "ID": "239",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "織物",
+        "overview": "沖縄県知花村で生産される伝統的な花織物で,鮮やかな花模様が魅力",
+        "address": "沖縄市知花5丁目67",
+        "postcode": "〒904-2143",
+        "URL": "https://chibana-hanaori.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.81144,
+          26.365398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "琉球びんがた",
+        "ID": "240",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "染色品",
+        "overview": "沖縄県で作られる伝統的なびんがた（瓶形の容器）で、実用的な 形状と彩り豊かな色使いが特徴です。",
+        "address": "沖縄県那覇市首里当蔵町2丁目16首里染織館 suikara 2階",
+        "postcode": "〒903-0812",
+        "URL": "http://www.ryukyu-bingata.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.720825,
+          26.220556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "壺屋焼",
+        "ID": "241",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "陶磁器",
+        "overview": "沖縄県壺屋村で焼かれる伝統的な陶磁器で、素朴な風合いと使い勝手 の良さが魅力です。",
+        "address": "沖縄県那覇市壺屋1丁目21-14",
+        "postcode": "〒902-0065",
+        "URL": "https://tuboya.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.692497,
+          26.212362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "琉球漆器",
+        "ID": "242",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "漆器",
+        "overview": "沖縄県で作られる伝統的な漆器で、美しい漆の輝きと独自のデザイン が特徴です。",
+        "address": "沖縄県那覇市識名3-19-6",
+        "postcode": "〒902-0078",
+        "URL": "https://kougeihin.jp/craft/0523/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.709244,
+          26.20414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三線",
+        "ID": "243",
+        "region": "沖縄",
+        "prefectures": "沖縄",
+        "category": "その他",
+        "overview": "沖縄県の伝統的な楽器で,三本の弦を持つ独特の音色が特徴",
+        "address": "沖縄県那覇市安里360-7",
+        "postcode": "〒902-0067",
+        "URL": "https://okinawa34.jp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.697807,
+          26.217972
+        ]
+      }
+    }
+  ]
+}
