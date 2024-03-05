@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "./Map.css";
 import L from "leaflet";
-import TraditionalCraftsData from "../TraditionalCrafts.json";
+import TraditionalCraftsData from "../../TraditionalCrafts.json";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
 
