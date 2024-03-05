@@ -9,7 +9,11 @@ import {
   Grid,
   ToggleButton,
   ToggleButtonGroup,
+  Card,
+  CardContent,
+  Typography,
 } from "@mui/material";
+import Divider from "@mui/material/Divider";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
 
@@ -112,7 +116,7 @@ export const Map = () => {
         </MapContainer>
       </Grid>
       <Grid item xs={12} md={2}>
-        <Box sx={{ margin: 2 }}>
+        <Box sx={{ margin: 2, height: "95vh", overflow: "hidden" }}>
           <Button
             variant="contained"
             onClick={handleSelectAll}
@@ -134,8 +138,8 @@ export const Map = () => {
             sx={{
               display: "block",
               "& .MuiToggleButton-root": {
-                margin: "5px",
-                borderRadius: "16px",
+                m: 0.5,
+                borderRadius: 1,
                 textTransform: "none",
                 justifyContent: "flex-start",
               },
@@ -146,12 +150,12 @@ export const Map = () => {
                 key={category.name}
                 value={category.name}
                 sx={{
-                  margin: "5px",
-                  borderRadius: "16px",
-                  textTransform: "none",
-                  justifyContent: "flex-start",
                   "&.Mui-selected": {
+                    color: "common.white",
                     backgroundColor: category.colordode,
+                    "&.Mui-selected:hover": {
+                      backgroundColor: `${category.colordode}80`,
+                    },
                   },
                 }}
               >
@@ -159,6 +163,38 @@ export const Map = () => {
               </ToggleButton>
             ))}
           </ToggleButtonGroup>
+          <Divider />
+          <Box sx={{ overflow: "auto", maxHeight: "calc(95vh - 160px)" }}>
+            {TraditionalCraftsData.features
+              .filter((craft) =>
+                selectedCategories.includes(
+                  categories[craft.properties.category].name
+                )
+              )
+              .map((craft) => (
+                <Card key={craft.properties.ID} sx={{ marginBottom: 2 }}>
+                  <CardContent
+                    sx={{
+                      backgroundColor: `${categories[craft.properties.category].colordode}80`,
+                    }}
+                  >
+                    <Typography variant="h6" component="h2">
+                      {craft.properties.name}
+                    </Typography>
+                    <Typography color="textSecondary">
+                      {categories[craft.properties.category].name}
+                    </Typography>
+                    <Divider />
+                    <Typography>{craft.properties.postcode}</Typography>
+                    <Typography>{craft.properties.address}</Typography>
+                    <Divider />
+                    <Typography variant="body2" component="p">
+                      {craft.properties.overview}
+                    </Typography>
+                  </CardContent>
+                </Card>
+              ))}
+          </Box>
         </Box>
       </Grid>
     </Grid>
