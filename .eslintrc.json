@@ -1,15 +1,23 @@
 {
-  "extends": ["eslint:recommended"],
-  "plugins": [],
-  "env": { "browser": true },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "plugins": ["react"],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
   "rules": {
     "indent": ["error", 2]
   },
   "parserOptions": {
-        "ecmaVersion": 7, 
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true
-        }
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
     }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }
