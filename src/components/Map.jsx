@@ -69,7 +69,7 @@ export const Map = () => {
   const position = [35.5, 136.5];
   const zoom = 6;
 
-  const handleCategoryChange = (event, newCategories) => {
+  const handleCategoryChange = (newCategories) => {
     setSelectedCategories(newCategories);
   };
 
