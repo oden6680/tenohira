@@ -3,6 +3,13 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "./Map.css";
 import L from "leaflet";
 import TraditionalCraftsData from "../../TraditionalCrafts.json";
+import {
+  Button,
+  Box,
+  Grid,
+  ToggleButton,
+  ToggleButtonGroup,
+} from "@mui/material";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
 
@@ -44,17 +51,10 @@ export const Map = () => {
   );
 
   const position = [35.5, 136.5];
-  const zoom = 5;
+  const zoom = 6;
 
-  const handleCategoryChange = (e) => {
-    const { value, checked } = e.target;
-    if (checked) {
-      setSelectedCategories([...selectedCategories, value]);
-    } else {
-      setSelectedCategories(
-        selectedCategories.filter((category) => category !== value)
-      );
-    }
+  const handleCategoryChange = (event, newCategories) => {
+    setSelectedCategories(newCategories);
   };
 
   const handleSelectAll = () => {
@@ -66,48 +66,86 @@ export const Map = () => {
   };
 
   return (
-    <div>
-      <button onClick={handleSelectAll}>全て選択</button>
-      <button onClick={handleDeselectAll}>選択解除</button>
-      {Object.keys(categories).map((categoryKey) => (
-        <div key={categoryKey}>
-          <input
-            type="checkbox"
-            id={categoryKey}
-            value={categories[categoryKey].name}
-            onChange={handleCategoryChange}
-            checked={selectedCategories.includes(categories[categoryKey].name)}
+    <Grid container spacing={2}>
+      <Grid item xs={12} md={10}>
+        <MapContainer
+          center={position}
+          zoom={zoom}
+          style={{ height: "95vh", width: "100%" }}
+        >
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          <label htmlFor={categoryKey}>{categories[categoryKey].name}</label>
-        </div>
-      ))}
-
-      <MapContainer center={position} zoom={zoom}>
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-        {TraditionalCraftsData.features
-          .filter((craft) =>
-            selectedCategories.includes(
-              categories[craft.properties.category].name
+          {TraditionalCraftsData.features
+            .filter((craft) =>
+              selectedCategories.includes(
+                categories[craft.properties.category].name
+              )
             )
-          )
-          .map((craft) => (
-            <Marker
-              key={craft.properties.ID}
-              position={[
-                craft.geometry.coordinates[1],
-                craft.geometry.coordinates[0],
-              ]}
-              icon={colorMarker(categories[craft.properties.category].color)}
-            >
-              <Popup>
-                {craft.properties.name} <br /> {craft.properties.overview}
-              </Popup>
-            </Marker>
-          ))}
-      </MapContainer>
-    </div>
+            .map((craft) => (
+              <Marker
+                key={craft.properties.ID}
+                position={[
+                  craft.geometry.coordinates[1],
+                  craft.geometry.coordinates[0],
+                ]}
+                icon={colorMarker(categories[craft.properties.category].color)}
+              >
+                <Popup>
+                  {craft.properties.name} <br /> {craft.properties.overview}
+                </Popup>
+              </Marker>
+            ))}
+        </MapContainer>
+      </Grid>
+      <Grid item xs={12} md={2}>
+        <Box sx={{ margin: 2 }}>
+          <Button
+            variant="contained"
+            onClick={handleSelectAll}
+            sx={{ margin: 1 }}
+          >
+            全て選択
+          </Button>
+          <Button
+            variant="outlined"
+            onClick={handleDeselectAll}
+            sx={{ margin: 1 }}
+          >
+            選択解除
+          </Button>
+          <ToggleButtonGroup
+            orientation="vertical"
+            value={selectedCategories}
+            onChange={handleCategoryChange}
+            sx={{
+              display: "block",
+              "& .MuiToggleButton-root": {
+                margin: "5px",
+                borderRadius: "16px",
+                textTransform: "none",
+                justifyContent: "flex-start",
+                color: "black",
+                backgroundColor: "#e0e0e0",
+                "&:hover": {
+                  backgroundColor: "#aeaeae",
+                },
+              },
+            }}
+          >
+            {Object.values(categories).map((category) => (
+              <ToggleButton
+                key={category.name}
+                value={category.name}
+                sx={{ textTransform: "none", justifyContent: "flex-start" }}
+              >
+                {category.name}
+              </ToggleButton>
+            ))}
+          </ToggleButtonGroup>
+        </Box>
+      </Grid>
+    </Grid>
   );
 };
