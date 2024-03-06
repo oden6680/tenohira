@@ -127,6 +127,48 @@ export const Map = () => {
 
   return (
     <Grid container spacing={2}>
+      <Button variant="contained" onClick={handleSelectAll} sx={{ margin: 1 }}>
+        全て選択
+      </Button>
+      <Button variant="outlined" onClick={handleDeselectAll} sx={{ margin: 1 }}>
+        選択解除
+      </Button>
+      <ToggleButtonGroup
+        orientation="vertical"
+        value={selectedCategories}
+        onChange={handleCategoryChange}
+        sx={{
+          width: "100%",
+          display: "flex",
+          flexDirection: "row",
+          flexWrap: "wrap",
+          "& .MuiToggleButton-root": {
+            flexGrow: 1,
+            m: 0.5,
+            borderRadius: 1,
+            textTransform: "none",
+            justifyContent: "center",
+          },
+        }}
+      >
+        {Object.values(categories).map((category) => (
+          <ToggleButton
+            key={category.name}
+            value={category.name}
+            sx={{
+              "&.Mui-selected": {
+                color: "common.white",
+                backgroundColor: category.colordode,
+                "&.Mui-selected:hover": {
+                  backgroundColor: `${category.colordode}80`,
+                },
+              },
+            }}
+          >
+            {category.name}
+          </ToggleButton>
+        ))}
+      </ToggleButtonGroup>
       <Grid item xs={12} md={8}>
         <MapContainer
           center={position}
@@ -165,53 +207,6 @@ export const Map = () => {
       </Grid>
       <Grid item xs={12} md={4}>
         <Box sx={{ margin: 2, height: "95vh", overflow: "hidden" }}>
-          <Button
-            variant="contained"
-            onClick={handleSelectAll}
-            sx={{ margin: 1 }}
-          >
-            全て選択
-          </Button>
-          <Button
-            variant="outlined"
-            onClick={handleDeselectAll}
-            sx={{ margin: 1 }}
-          >
-            選択解除
-          </Button>
-          <ToggleButtonGroup
-            orientation="vertical"
-            value={selectedCategories}
-            onChange={handleCategoryChange}
-            sx={{
-              display: "block",
-              "& .MuiToggleButton-root": {
-                m: 0.5,
-                borderRadius: 1,
-                textTransform: "none",
-                justifyContent: "flex-start",
-              },
-            }}
-          >
-            {Object.values(categories).map((category) => (
-              <ToggleButton
-                key={category.name}
-                value={category.name}
-                sx={{
-                  "&.Mui-selected": {
-                    color: "common.white",
-                    backgroundColor: category.colordode,
-                    "&.Mui-selected:hover": {
-                      backgroundColor: `${category.colordode}80`,
-                    },
-                  },
-                }}
-              >
-                {category.name}
-              </ToggleButton>
-            ))}
-          </ToggleButtonGroup>
-          <Divider />
           <Typography variant="subtitle1" sx={{ margin: "10px 0" }}>
             全{filteredCrafts.length}件
           </Typography>
@@ -237,34 +232,33 @@ export const Map = () => {
             {sortOrder === "asc" ? "昇順" : "降順"}
           </Button>
           <Box sx={{ overflow: "auto", maxHeight: "calc(95vh - 160px)" }}>
-            {filteredCrafts
-              .map((craft) => (
-                <Card
-                  key={craft.properties.ID}
-                  sx={{ marginBottom: 2 }}
-                  onClick={() => handleCardClick(craft)}
+            {filteredCrafts.map((craft) => (
+              <Card
+                key={craft.properties.ID}
+                sx={{ marginBottom: 2 }}
+                onClick={() => handleCardClick(craft)}
+              >
+                <CardContent
+                  sx={{
+                    backgroundColor: `${categories[craft.properties.category].colordode}80`,
+                  }}
                 >
-                  <CardContent
-                    sx={{
-                      backgroundColor: `${categories[craft.properties.category].colordode}80`,
-                    }}
-                  >
-                    <Typography variant="h6" component="h2">
-                      {craft.properties.name}
-                    </Typography>
-                    <Typography color="textSecondary">
-                      {categories[craft.properties.category].name}
-                    </Typography>
-                    <Divider />
-                    <Typography>{craft.properties.postcode}</Typography>
-                    <Typography>{craft.properties.address}</Typography>
-                    <Divider />
-                    <Typography variant="body2" component="p">
-                      {craft.properties.overview}
-                    </Typography>
-                  </CardContent>
-                </Card>
-              ))}
+                  <Typography variant="h6" component="h2">
+                    {craft.properties.name}
+                  </Typography>
+                  <Typography color="textSecondary">
+                    {categories[craft.properties.category].name}
+                  </Typography>
+                  <Divider />
+                  <Typography>{craft.properties.postcode}</Typography>
+                  <Typography>{craft.properties.address}</Typography>
+                  <Divider />
+                  <Typography variant="body2" component="p">
+                    {craft.properties.overview}
+                  </Typography>
+                </CardContent>
+              </Card>
+            ))}
           </Box>
         </Box>
       </Grid>
