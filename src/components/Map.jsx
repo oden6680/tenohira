@@ -15,6 +15,7 @@ import {
   MenuItem,
   FormControl,
   Select,
+  Link
 } from "@mui/material";
 import Divider from "@mui/material/Divider";
 import icon from "leaflet/dist/images/marker-icon.png";
@@ -261,6 +262,17 @@ export default function Map() {
                   <Divider />
                   <Typography variant="body2" component="p">
                     {craft.properties.overview}
+                  </Typography>
+                  <Divider />
+                  <Typography variant="body2" component="p">
+                    {craft.properties.URL ? "参考URL: " : null}
+                    <Link
+                      href={craft.properties.URL}
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      {craft.properties.URL}
+                    </Link>
                   </Typography>
                 </CardContent>
               </Card>
