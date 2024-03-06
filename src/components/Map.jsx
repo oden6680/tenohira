@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { MapContainer, TileLayer, Marker, Popup, useMap} from "react-leaflet";
+import { useState, useEffect } from "react";
+import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "./Map.css";
 import L from "leaflet";
 import TraditionalCraftsData from "../../TraditionalCrafts.json";
@@ -12,6 +12,9 @@ import {
   Card,
   CardContent,
   Typography,
+  MenuItem,
+  FormControl,
+  Select,
 } from "@mui/material";
 import Divider from "@mui/material/Divider";
 import icon from "leaflet/dist/images/marker-icon.png";
@@ -69,13 +72,47 @@ const FlyToMarker = ({ position }) => {
   return null;
 };
 
-
 export const Map = () => {
   const [selectedCategories, setSelectedCategories] = useState(
     Object.values(categories).map((c) => c.name)
   );
   const [map, setMap] = useState(null);
   const [activeCraft, setActiveCraft] = useState(null);
+
+  const [sortKey, setSortKey] = useState("name");
+  const [sortOrder, setSortOrder] = useState("asc");
+
+  const [filteredCrafts, setFilteredCrafts] = useState([]);
+
+  const sortCrafts = (a, b) => {
+    if (a.properties[sortKey] < b.properties[sortKey]) {
+      return sortOrder === "asc" ? -1 : 1;
+    }
+    if (a.properties[sortKey] > b.properties[sortKey]) {
+      return sortOrder === "asc" ? 1 : -1;
+    }
+    return 0;
+  };
+
+  useEffect(() => {
+    const sortedCrafts = TraditionalCraftsData.features
+      .filter((craft) =>
+        selectedCategories.includes(categories[craft.properties.category].name)
+      )
+      .sort((a, b) => {
+        let valA = a.properties[sortKey]; // ソートキーに基づいたAの値
+        let valB = b.properties[sortKey]; // ソートキーに基づいたBの値
+        if (sortKey === "coordinates") {
+          // 緯度の場合の特別な扱い
+          valA = a.geometry.coordinates[1]; // 緯度はcoordinates配列の2番目の要素
+          valB = b.geometry.coordinates[1];
+        }
+        if (valA < valB) return sortOrder === "asc" ? -1 : 1;
+        if (valA > valB) return sortOrder === "asc" ? 1 : -1;
+        return 0;
+      });
+    setFilteredCrafts(sortedCrafts);
+  }, [selectedCategories, sortKey, sortOrder]);
 
   const position = [35.5, 136.5];
   const zoom = 6;
@@ -186,13 +223,32 @@ export const Map = () => {
             ))}
           </ToggleButtonGroup>
           <Divider />
+          <Typography variant="subtitle1" sx={{ margin: "10px 0" }}>
+            全{filteredCrafts.length}件
+          </Typography>
+          <FormControl fullWidth>
+            <Select
+              value={sortKey}
+              onChange={(e) => setSortKey(e.target.value)}
+              displayEmpty
+              size="small"
+              sx={{ mb: 1 }}
+            >
+              <MenuItem value="name">名前順</MenuItem>
+              <MenuItem value="category">種類順</MenuItem>
+              <MenuItem value="coordinates">緯度順</MenuItem>
+            </Select>
+          </FormControl>
+          <Button
+            variant="outlined"
+            size="small"
+            onClick={() => setSortOrder(sortOrder === "asc" ? "desc" : "asc")}
+            sx={{ mb: 2 }}
+          >
+            {sortOrder === "asc" ? "昇順" : "降順"}
+          </Button>
           <Box sx={{ overflow: "auto", maxHeight: "calc(95vh - 160px)" }}>
-            {TraditionalCraftsData.features
-              .filter((craft) =>
-                selectedCategories.includes(
-                  categories[craft.properties.category].name
-                )
-              )
+            {filteredCrafts
               .map((craft) => (
                 <Card
                   key={craft.properties.ID}
