@@ -72,7 +72,7 @@ const FlyToMarker = ({ position }) => {
   return null;
 };
 
-export const Map = () => {
+export default function Map() {
   const [selectedCategories, setSelectedCategories] = useState(
     Object.values(categories).map((c) => c.name)
   );
@@ -237,7 +237,7 @@ export const Map = () => {
               {sortOrder === "asc" ? "昇順" : "降順"}
             </Button>
           </FormControl>
-          <Box sx={{ overflow: "auto", maxHeight: "calc(95vh - 120px)" }}>
+          <Box sx={{ overflow: "auto", maxHeight: "88vh" }}>
             {filteredCrafts.map((craft) => (
               <Card
                 key={craft.properties.ID}
@@ -270,4 +270,4 @@ export const Map = () => {
       </Grid>
     </Grid>
   );
-};
+}
