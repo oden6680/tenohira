@@ -1,5 +1,5 @@
 import * as React from "react";
-import { IconButton, Badge, Tooltip } from "@mui/material";
+import { IconButton, Tooltip } from "@mui/material";
 import MapIcon from "@mui/icons-material/Map";
 import GroupsIcon from "@mui/icons-material/Groups";
 import InsertPhotoIcon from "@mui/icons-material/InsertPhoto";

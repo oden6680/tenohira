@@ -1,8 +1,6 @@
-import React from "react";
 import { Map } from "./components/Map";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import NavigationBar from "./components/NavigationBar";
 import "leaflet/dist/leaflet.css";
 import { CssBaseline, Box } from "@mui/material";
 

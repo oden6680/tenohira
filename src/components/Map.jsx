@@ -84,27 +84,16 @@ export const Map = () => {
 
   const [filteredCrafts, setFilteredCrafts] = useState([]);
 
-  const sortCrafts = (a, b) => {
-    if (a.properties[sortKey] < b.properties[sortKey]) {
-      return sortOrder === "asc" ? -1 : 1;
-    }
-    if (a.properties[sortKey] > b.properties[sortKey]) {
-      return sortOrder === "asc" ? 1 : -1;
-    }
-    return 0;
-  };
-
   useEffect(() => {
     const sortedCrafts = TraditionalCraftsData.features
       .filter((craft) =>
         selectedCategories.includes(categories[craft.properties.category].name)
       )
       .sort((a, b) => {
-        let valA = a.properties[sortKey]; // ソートキーに基づいたAの値
-        let valB = b.properties[sortKey]; // ソートキーに基づいたBの値
+        let valA = a.properties[sortKey];
+        let valB = b.properties[sortKey];
         if (sortKey === "coordinates") {
-          // 緯度の場合の特別な扱い
-          valA = a.geometry.coordinates[1]; // 緯度はcoordinates配列の2番目の要素
+          valA = a.geometry.coordinates[1];
           valB = b.geometry.coordinates[1];
         }
         if (valA < valB) return sortOrder === "asc" ? -1 : 1;
@@ -138,7 +127,7 @@ export const Map = () => {
 
   return (
     <Grid container spacing={2}>
-      <Grid item xs={12} md={10}>
+      <Grid item xs={12} md={8}>
         <MapContainer
           center={position}
           zoom={zoom}
@@ -174,7 +163,7 @@ export const Map = () => {
           )}
         </MapContainer>
       </Grid>
-      <Grid item xs={12} md={2}>
+      <Grid item xs={12} md={4}>
         <Box sx={{ margin: 2, height: "95vh", overflow: "hidden" }}>
           <Button
             variant="contained"

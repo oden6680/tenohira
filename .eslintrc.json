@@ -6,7 +6,10 @@
     "es6": true
   },
   "rules": {
-    "indent": ["error", 2]
+    "indent": ["error", 2],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off"
   },
   "parserOptions": {
     "ecmaVersion": 2018,
