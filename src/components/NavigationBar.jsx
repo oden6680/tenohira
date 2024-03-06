@@ -1,24 +1,39 @@
 import * as React from "react";
-import { BottomNavigation, BottomNavigationAction } from "@mui/material";
-import RestoreIcon from "@mui/icons-material/Restore";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ArchiveIcon from "@mui/icons-material/Archive";
+import { IconButton, Badge, Tooltip } from "@mui/material";
+import MapIcon from "@mui/icons-material/Map";
+import GroupsIcon from "@mui/icons-material/Groups";
+import InsertPhotoIcon from "@mui/icons-material/InsertPhoto";
+import InfoIcon from "@mui/icons-material/Info";
+import LinkIcon from "@mui/icons-material/Link";
 
-export const NavigationBar = () => {
-  const [value, setValue] = React.useState(0);
-
+export default function NavigationBar() {
   return (
-    <BottomNavigation
-      showLabels
-      value={value}
-      onChange={(event, newValue) => {
-        setValue(newValue);
-      }}
-      sx={{ width: 500 }}
-    >
-      <BottomNavigationAction label="最近" icon={<RestoreIcon />} />
-      <BottomNavigationAction label="お気に入り" icon={<FavoriteIcon />} />
-      <BottomNavigationAction label="アーカイブ" icon={<ArchiveIcon />} />
-    </BottomNavigation>
+    <React.Fragment>
+      <Tooltip title="伝統工芸マップ">
+        <IconButton color="inherit">
+          <MapIcon />
+        </IconButton>
+      </Tooltip>
+      <Tooltip title="「手のひらに和を」とは">
+        <IconButton color="inherit">
+          <GroupsIcon />
+        </IconButton>
+      </Tooltip>
+      <Tooltip title="お知らせ">
+        <IconButton color="inherit">
+          <InfoIcon />
+        </IconButton>
+      </Tooltip>
+      <Tooltip title="写真">
+        <IconButton color="inherit">
+          <InsertPhotoIcon />
+        </IconButton>
+      </Tooltip>
+      <Tooltip title="SNS">
+        <IconButton color="inherit">
+          <LinkIcon />
+        </IconButton>
+      </Tooltip>
+    </React.Fragment>
   );
 }

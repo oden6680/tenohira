@@ -1,20 +1,20 @@
 import * as React from "react";
 import { Box, Typography, Container } from "@mui/material";
 
-export const Footer = ()=> {
+export default function Footer() {
   return (
-    <Box component="footer" sx={{ bgcolor: "background.paper", py: 6 }}>
+    <Box component="footer" sx={{ bgcolor: "black", py: 6 }}>
       <Container maxWidth="lg">
-        <Typography variant="h6" align="center" gutterBottom>
-          フッタータイトル
+        <Typography variant="h6" align="center" color="white" gutterBottom>
+          手のひらに和を
         </Typography>
         <Typography
           variant="subtitle1"
           align="center"
-          color="text.secondary"
+          color="white"
           component="p"
         >
-          フッターに関する情報やリンクなど
+          Copyright © 2024 日本大学文理学部 次世代社会研究センター RINGS プロジェクト「手のひらに和を」
         </Typography>
       </Container>
     </Box>
