@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, useMap} from "react-leaflet";
 import "./Map.css";
 import L from "leaflet";
 import TraditionalCraftsData from "../../TraditionalCrafts.json";
@@ -61,10 +61,21 @@ const categories = {
   other: { name: "その他", color: "deep-purple", colordode: "#5C75DE" },
 };
 
+const FlyToMarker = ({ position }) => {
+  const map = useMap();
+
+  map.flyTo(position, 15);
+
+  return null;
+};
+
+
 export const Map = () => {
   const [selectedCategories, setSelectedCategories] = useState(
     Object.values(categories).map((c) => c.name)
   );
+  const [map, setMap] = useState(null);
+  const [activeCraft, setActiveCraft] = useState(null);
 
   const position = [35.5, 136.5];
   const zoom = 6;
@@ -81,6 +92,13 @@ export const Map = () => {
     setSelectedCategories([]);
   };
 
+  const handleCardClick = (craft) => {
+    setActiveCraft({
+      lat: craft.geometry.coordinates[1],
+      lng: craft.geometry.coordinates[0],
+    });
+  };
+
   return (
     <Grid container spacing={2}>
       <Grid item xs={12} md={10}>
@@ -88,6 +106,7 @@ export const Map = () => {
           center={position}
           zoom={zoom}
           style={{ height: "95vh", width: "100%" }}
+          whenCreated={setMap}
         >
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -113,6 +132,9 @@ export const Map = () => {
                 </Popup>
               </Marker>
             ))}
+          {activeCraft && (
+            <FlyToMarker position={[activeCraft.lat, activeCraft.lng]} />
+          )}
         </MapContainer>
       </Grid>
       <Grid item xs={12} md={2}>
@@ -172,7 +194,11 @@ export const Map = () => {
                 )
               )
               .map((craft) => (
-                <Card key={craft.properties.ID} sx={{ marginBottom: 2 }}>
+                <Card
+                  key={craft.properties.ID}
+                  sx={{ marginBottom: 2 }}
+                  onClick={() => handleCardClick(craft)}
+                >
                   <CardContent
                     sx={{
                       backgroundColor: `${categories[craft.properties.category].colordode}80`,
