@@ -206,32 +206,38 @@ export const Map = () => {
         </MapContainer>
       </Grid>
       <Grid item xs={12} md={4}>
-        <Box sx={{ margin: 2, height: "95vh", overflow: "hidden" }}>
-          <Typography variant="subtitle1" sx={{ margin: "10px 0" }}>
+        <Box sx={{ margin: 1, height: "95vh", overflow: "hidden" }}>
+          <Typography variant="subtitle1">
             全{filteredCrafts.length}件
           </Typography>
-          <FormControl fullWidth>
+          <FormControl
+            sx={{
+              width: "100%",
+              display: "flex",
+              flexDirection: "row",
+              flexWrap: "wrap",
+              alignItems: "center",
+            }}
+          >
             <Select
               value={sortKey}
               onChange={(e) => setSortKey(e.target.value)}
               displayEmpty
-              size="small"
-              sx={{ mb: 1 }}
+              sx={{ flexGrow: 1, mr: 1, mb: 1 }}
             >
               <MenuItem value="name">名前順</MenuItem>
               <MenuItem value="category">種類順</MenuItem>
               <MenuItem value="coordinates">緯度順</MenuItem>
             </Select>
+            <Button
+              variant="outlined"
+              onClick={() => setSortOrder(sortOrder === "asc" ? "desc" : "asc")}
+              sx={{ height: "fit-content", mb: 1 }}
+            >
+              {sortOrder === "asc" ? "昇順" : "降順"}
+            </Button>
           </FormControl>
-          <Button
-            variant="outlined"
-            size="small"
-            onClick={() => setSortOrder(sortOrder === "asc" ? "desc" : "asc")}
-            sx={{ mb: 2 }}
-          >
-            {sortOrder === "asc" ? "昇順" : "降順"}
-          </Button>
-          <Box sx={{ overflow: "auto", maxHeight: "calc(95vh - 160px)" }}>
+          <Box sx={{ overflow: "auto", maxHeight: "calc(95vh - 120px)" }}>
             {filteredCrafts.map((craft) => (
               <Card
                 key={craft.properties.ID}
