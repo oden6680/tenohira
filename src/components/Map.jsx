@@ -32,6 +32,7 @@ L.Icon.Default.mergeOptions({
   iconUrl: icon,
   shadowUrl: iconShadow,
 });
+const popupOffset = new L.Point(0, -30);
 
 const colorMarker = (color) => {
   return L.icon({
@@ -60,7 +61,7 @@ const ZoomToMarker = ({ position, icon, name, overview }) => {
         },
       }}
     >
-      <Popup>
+      <Popup offset={popupOffset}>
         {name} <br /> {overview}
       </Popup>
     </Marker>
