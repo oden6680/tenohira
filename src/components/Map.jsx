@@ -42,11 +42,27 @@ const colorMarker = (color) => {
 };
 
 const FlyToMarker = ({ position }) => {
-  const map = useMap();
+  const maps = useMap();
 
-  map.flyTo(position, 15);
+  maps.flyTo(position, 15);
 
   return null;
+};
+
+const ZoomToMarker = ({ position, icon }) => {
+  const maps = useMap();
+
+  return (
+    <Marker
+      position={position}
+      icon={icon}
+      eventHandlers={{
+        click: () => {
+          maps.flyTo(position, 13);
+        },
+      }}
+    />
+  );
 };
 
 const allCategories = Object.values(categories).map((c) => c.name);
@@ -54,7 +70,8 @@ const allPrefectures = Object.values(regions).flat();
 
 export default function Map() {
   const [selectedCategories, setSelectedCategories] = useState(allCategories);
-  const [selectedPrefectures, setSelectedPrefectures] = useState(allPrefectures);
+  const [selectedPrefectures, setSelectedPrefectures] =
+    useState(allPrefectures);
   const [map, setMap] = useState(null);
   const [activeCraft, setActiveCraft] = useState(null);
 
@@ -275,7 +292,7 @@ export default function Map() {
               )
             )
             .map((craft) => (
-              <Marker
+              <ZoomToMarker
                 key={craft.properties.ID}
                 position={[
                   craft.geometry.coordinates[1],
@@ -286,7 +303,7 @@ export default function Map() {
                 <Popup>
                   {craft.properties.name} <br /> {craft.properties.overview}
                 </Popup>
-              </Marker>
+              </ZoomToMarker>
             ))}
           {activeCraft && (
             <FlyToMarker position={[activeCraft.lat, activeCraft.lng]} />
