@@ -179,7 +179,7 @@ export default function Map() {
         >
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            url="https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png"
           />
           {TraditionalCraftsData.features
             .filter((craft) =>
