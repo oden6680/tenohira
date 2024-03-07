@@ -43,13 +43,11 @@ const colorMarker = (color) => {
 
 const FlyToMarker = ({ position }) => {
   const maps = useMap();
-
-  maps.flyTo(position, 15);
-
+  maps.flyTo(position, 13);
   return null;
 };
 
-const ZoomToMarker = ({ position, icon }) => {
+const ZoomToMarker = ({ position, icon, name, overview }) => {
   const maps = useMap();
 
   return (
@@ -61,7 +59,11 @@ const ZoomToMarker = ({ position, icon }) => {
           maps.flyTo(position, 13);
         },
       }}
-    />
+    >
+      <Popup>
+        {name} <br /> {overview}
+      </Popup>
+    </Marker>
   );
 };
 
@@ -299,11 +301,9 @@ export default function Map() {
                   craft.geometry.coordinates[0],
                 ]}
                 icon={colorMarker(categories[craft.properties.category].color)}
-              >
-                <Popup>
-                  {craft.properties.name} <br /> {craft.properties.overview}
-                </Popup>
-              </ZoomToMarker>
+                name={craft.properties.name}
+                overview={craft.properties.overview}
+              ></ZoomToMarker>
             ))}
           {activeCraft && (
             <FlyToMarker position={[activeCraft.lat, activeCraft.lng]} />
