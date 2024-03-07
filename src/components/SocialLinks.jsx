@@ -29,8 +29,8 @@ const socialLinks = [
   },
   {
     name: "note",
-    username: "@tenohiraniwawo",
-    url: "https://note.com/tenohiraniwawo",
+    username: "@tenohirani_80",
+    url: "https://note.com/tenohirani_80",
     description: "説明テキスト",
     icon: <NoteIcon />,
   },

@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "./Map.css";
 import L from "leaflet";
-import TraditionalCraftsData from "../../TraditionalCrafts.json";
 import {
   Button,
   Box,
@@ -11,15 +10,22 @@ import {
   ToggleButtonGroup,
   Card,
   CardContent,
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
   Typography,
   MenuItem,
   FormControl,
   Select,
-  Link
+  Link,
 } from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Divider from "@mui/material/Divider";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
+import TraditionalCraftsData from "../../data/TraditionalCrafts.json";
+import { regions } from "../../data/regions";
+import { categories } from "../../data/categories";
 
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -35,36 +41,6 @@ const colorMarker = (color) => {
   });
 };
 
-const categories = {
-  stonework: { name: "石工品", color: "light-blue", colordode: "#267FCA" },
-  ceramics: { name: "陶磁器", color: "aqua", colordode: "#0093AB" },
-  dyedproducts: { name: "染色品", color: "green", colordode: "#009F82" },
-  craftmaterials: {
-    name: "工芸材料・工芸用品",
-    color: "lime-green",
-    colordode: "#009B4C",
-  },
-  dolls: { name: "人形・こけし", color: "light-yellow", colordode: "#38A332" },
-  buddhist: { name: "仏壇・仏具", color: "yellow", colordode: "#458D00" },
-  metalwork: { name: "金工品", color: "gold", colordode: "#828500" },
-  dyedwovenproducts: { name: "染織品", color: "orange", colordode: "#AB7400" },
-  stationery: { name: "文具", color: "red-orange", colordode: "#CD6B33" },
-  paper: { name: "和紙", color: "red", colordode: "#E16165" },
-  woodwork: {
-    name: "木工品・竹工品",
-    color: "dark-pink",
-    colordode: "#E05088",
-  },
-  lacquerware: { name: "漆器", color: "pink", colordode: "#D14DB1" },
-  preciousstonework: {
-    name: "貴石細工",
-    color: "magenta",
-    colordode: "#B356D0",
-  },
-  fabric: { name: "織物", color: "purple", colordode: "#8B62DF" },
-  other: { name: "その他", color: "deep-purple", colordode: "#5C75DE" },
-};
-
 const FlyToMarker = ({ position }) => {
   const map = useMap();
 
@@ -73,10 +49,12 @@ const FlyToMarker = ({ position }) => {
   return null;
 };
 
+const allCategories = Object.values(categories).map((c) => c.name);
+const allPrefectures = Object.values(regions).flat();
+
 export default function Map() {
-  const [selectedCategories, setSelectedCategories] = useState(
-    Object.values(categories).map((c) => c.name)
-  );
+  const [selectedCategories, setSelectedCategories] = useState(allCategories);
+  const [selectedPrefectures, setSelectedPrefectures] = useState(allPrefectures);
   const [map, setMap] = useState(null);
   const [activeCraft, setActiveCraft] = useState(null);
 
@@ -90,6 +68,11 @@ export default function Map() {
       .filter((craft) =>
         selectedCategories.includes(categories[craft.properties.category].name)
       )
+      .filter((craft) =>
+        selectedPrefectures.some((prefecture) =>
+          craft.properties.address.includes(prefecture)
+        )
+      )
       .sort((a, b) => {
         let valA = a.properties[sortKey];
         let valB = b.properties[sortKey];
@@ -102,7 +85,7 @@ export default function Map() {
         return 0;
       });
     setFilteredCrafts(sortedCrafts);
-  }, [selectedCategories, sortKey, sortOrder]);
+  }, [selectedCategories, selectedPrefectures, sortKey, sortOrder]);
 
   const position = [35.5, 136.5];
   const zoom = 6;
@@ -111,12 +94,28 @@ export default function Map() {
     setSelectedCategories(newCategories);
   };
 
-  const handleSelectAll = () => {
-    setSelectedCategories(Object.values(categories).map((c) => c.name));
+  const handlePrefectureToggle = (prefecture) => {
+    setSelectedPrefectures((current) =>
+      current.includes(prefecture)
+        ? current.filter((p) => p !== prefecture)
+        : [...current, prefecture]
+    );
   };
 
-  const handleDeselectAll = () => {
+  const handleSelectCategoriesAll = () => {
+    setSelectedCategories(allCategories);
+  };
+
+  const handleDeselectCategoriesAll = () => {
     setSelectedCategories([]);
+  };
+
+  const handleSelectPrefecturesAll = () => {
+    setSelectedPrefectures(allPrefectures);
+  };
+
+  const handleDeselectPrefecturesAll = () => {
+    setSelectedPrefectures([]);
   };
 
   const handleCardClick = (craft) => {
@@ -128,48 +127,131 @@ export default function Map() {
 
   return (
     <Grid container spacing={2}>
-      <Button variant="contained" onClick={handleSelectAll} sx={{ margin: 1 }}>
-        全て選択
-      </Button>
-      <Button variant="outlined" onClick={handleDeselectAll} sx={{ margin: 1 }}>
-        選択解除
-      </Button>
-      <ToggleButtonGroup
-        orientation="vertical"
-        value={selectedCategories}
-        onChange={handleCategoryChange}
-        sx={{
-          width: "100%",
-          display: "flex",
-          flexDirection: "row",
-          flexWrap: "wrap",
-          "& .MuiToggleButton-root": {
-            flexGrow: 1,
-            m: 0.5,
-            borderRadius: 1,
-            textTransform: "none",
-            justifyContent: "center",
-          },
-        }}
-      >
-        {Object.values(categories).map((category) => (
-          <ToggleButton
-            key={category.name}
-            value={category.name}
-            sx={{
-              "&.Mui-selected": {
-                color: "common.white",
-                backgroundColor: category.colordode,
-                "&.Mui-selected:hover": {
-                  backgroundColor: `${category.colordode}80`,
+      <Accordion defaultExpanded sx={{ width: "100%" }}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1-content"
+          id="panel1-header"
+        >
+          <Typography>品種別絞り込み</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Box>
+            <Button
+              variant="contained"
+              onClick={handleSelectCategoriesAll}
+              sx={{ margin: 1 }}
+            >
+              全て選択
+            </Button>
+            <Button
+              variant="outlined"
+              onClick={handleDeselectCategoriesAll}
+              sx={{ margin: 1 }}
+            >
+              選択解除
+            </Button>
+            <ToggleButtonGroup
+              orientation="vertical"
+              value={selectedCategories}
+              onChange={handleCategoryChange}
+              sx={{
+                width: "100%",
+                display: "flex",
+                flexDirection: "row",
+                flexWrap: "wrap",
+                "& .MuiToggleButton-root": {
+                  flexGrow: 1,
+                  m: 0.5,
+                  borderRadius: 1,
+                  textTransform: "none",
+                  justifyContent: "center",
                 },
-              },
-            }}
+              }}
+            >
+              {Object.values(categories).map((category) => (
+                <ToggleButton
+                  key={category.name}
+                  value={category.name}
+                  sx={{
+                    "&.Mui-selected": {
+                      color: "common.white",
+                      backgroundColor: category.colordode,
+                      "&.Mui-selected:hover": {
+                        backgroundColor: `${category.colordode}80`,
+                      },
+                    },
+                  }}
+                >
+                  {category.name}
+                </ToggleButton>
+              ))}
+            </ToggleButtonGroup>
+          </Box>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion defaultExpanded sx={{ width: "100%" }}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2-content"
+          id="panel2-header"
+        >
+          都道府県別絞り込み
+        </AccordionSummary>
+        <Box sx={{ margin: 2 }}>
+          <Button
+            variant="contained"
+            onClick={handleSelectPrefecturesAll}
+            sx={{ margin: 1 }}
           >
-            {category.name}
-          </ToggleButton>
-        ))}
-      </ToggleButtonGroup>
+            全て選択
+          </Button>
+          <Button
+            variant="outlined"
+            onClick={handleDeselectPrefecturesAll}
+            sx={{ margin: 1 }}
+          >
+            選択解除
+          </Button>
+          {Object.entries(regions).map(([regionName, prefectures]) => (
+            <Accordion key={regionName}>
+              <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography>{regionName}</Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <ToggleButtonGroup
+                  orientation="vertical"
+                  exclusive
+                  sx={{
+                    width: "100%",
+                    display: "flex",
+                    flexDirection: "row",
+                    flexWrap: "wrap",
+                    "& .MuiToggleButton-root": {
+                      flexGrow: 1,
+                      m: 0.5,
+                      borderRadius: 1,
+                      textTransform: "none",
+                      justifyContent: "center",
+                    },
+                  }}
+                >
+                  {prefectures.map((prefecture) => (
+                    <ToggleButton
+                      key={prefecture}
+                      value={prefecture}
+                      selected={selectedPrefectures.includes(prefecture)}
+                      onChange={() => handlePrefectureToggle(prefecture)}
+                    >
+                      {prefecture}
+                    </ToggleButton>
+                  ))}
+                </ToggleButtonGroup>
+              </AccordionDetails>
+            </Accordion>
+          ))}
+        </Box>
+      </Accordion>
       <Grid item xs={12} md={8}>
         <MapContainer
           center={position}
