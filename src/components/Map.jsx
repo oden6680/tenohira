@@ -86,11 +86,7 @@ const ZoomToMarker = ({ position, icon, craft }) => {
         },
       }}
     >
-      <Popup
-        offset={popupOffset}
-      >
-        {renderPopupContent(craft)}
-      </Popup>
+      <Popup offset={popupOffset}>{renderPopupContent(craft)}</Popup>
     </Marker>
   );
 };
@@ -209,7 +205,7 @@ export default function Map() {
                 flexWrap: "wrap",
                 "& .MuiToggleButton-root": {
                   flexGrow: 1,
-                  m: 0.5,
+                  m: 0.1,
                   borderRadius: 1,
                   textTransform: "none",
                   justifyContent: "center",
@@ -276,7 +272,7 @@ export default function Map() {
                     flexWrap: "wrap",
                     "& .MuiToggleButton-root": {
                       flexGrow: 1,
-                      m: 0.5,
+                      m: 0.1,
                       borderRadius: 1,
                       textTransform: "none",
                       justifyContent: "center",
