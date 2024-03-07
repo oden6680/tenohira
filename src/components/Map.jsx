@@ -48,7 +48,32 @@ const FlyToMarker = ({ position }) => {
   return null;
 };
 
-const ZoomToMarker = ({ position, icon, name, overview }) => {
+const renderPopupContent = (craft) => (
+  <div key={craft.properties.ID}>
+    <Typography variant="h6" component="h2">
+      {craft.properties.name}
+    </Typography>
+    <Typography color="textSecondary">
+      {categories[craft.properties.category].name}
+    </Typography>
+    <Divider />
+    <Typography>{craft.properties.postcode}</Typography>
+    <Typography>{craft.properties.address}</Typography>
+    <Divider />
+    <Typography variant="body2" component="p">
+      {craft.properties.overview}
+    </Typography>
+    <Divider />
+    <Typography variant="body2" component="p">
+      {craft.properties.URL ? "参考URL: " : null}
+      <Link href={craft.properties.URL} target="_blank" rel="noopener">
+        {craft.properties.URL}
+      </Link>
+    </Typography>
+  </div>
+);
+
+const ZoomToMarker = ({ position, icon, craft }) => {
   const maps = useMap();
 
   return (
@@ -61,8 +86,10 @@ const ZoomToMarker = ({ position, icon, name, overview }) => {
         },
       }}
     >
-      <Popup offset={popupOffset}>
-        {name} <br /> {overview}
+      <Popup
+        offset={popupOffset}
+      >
+        {renderPopupContent(craft)}
       </Popup>
     </Marker>
   );
@@ -196,9 +223,9 @@ export default function Map() {
                   sx={{
                     "&.Mui-selected": {
                       color: "common.white",
-                      backgroundColor: category.colordode,
+                      backgroundColor: category.colorcode,
                       "&.Mui-selected:hover": {
-                        backgroundColor: `${category.colordode}80`,
+                        backgroundColor: `${category.colorcode}80`,
                       },
                     },
                   }}
@@ -302,8 +329,7 @@ export default function Map() {
                   craft.geometry.coordinates[0],
                 ]}
                 icon={colorMarker(categories[craft.properties.category].color)}
-                name={craft.properties.name}
-                overview={craft.properties.overview}
+                craft={craft}
               ></ZoomToMarker>
             ))}
           {activeCraft && (
@@ -352,7 +378,7 @@ export default function Map() {
               >
                 <CardContent
                   sx={{
-                    backgroundColor: `${categories[craft.properties.category].colordode}80`,
+                    backgroundColor: `${categories[craft.properties.category].colorcode}80`,
                   }}
                 >
                   <Typography variant="h6" component="h2">
