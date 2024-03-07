@@ -57,8 +57,16 @@ const renderPopupContent = (craft) => (
       {categories[craft.properties.category].name}
     </Typography>
     <Divider />
-    <Typography>{craft.properties.postcode}</Typography>
-    <Typography>{craft.properties.address}</Typography>
+    <Typography>
+      {craft.properties.postcode + "　" + craft.properties.address + "　"}
+      <Link
+        href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(craft.properties.address)}`}
+        target="_blank"
+        rel="noopener"
+      >
+        Google Mapで見る
+      </Link>
+    </Typography>
     <Divider />
     <Typography variant="body2" component="p">
       {craft.properties.overview}
@@ -384,8 +392,19 @@ export default function Map() {
                     {categories[craft.properties.category].name}
                   </Typography>
                   <Divider />
-                  <Typography>{craft.properties.postcode}</Typography>
-                  <Typography>{craft.properties.address}</Typography>
+                  <Typography>
+                    {craft.properties.postcode +
+                      "　" +
+                      craft.properties.address +
+                      "　"}
+                    <Link
+                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(craft.properties.address)}`}
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Google Mapで見る
+                    </Link>
+                  </Typography>
                   <Divider />
                   <Typography variant="body2" component="p">
                     {craft.properties.overview}
