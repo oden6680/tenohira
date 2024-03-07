@@ -269,6 +269,11 @@ export default function Map() {
                 categories[craft.properties.category].name
               )
             )
+            .filter((craft) =>
+              selectedPrefectures.some((prefecture) =>
+                craft.properties.address.includes(prefecture)
+              )
+            )
             .map((craft) => (
               <Marker
                 key={craft.properties.ID}
